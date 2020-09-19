@@ -73,3 +73,174 @@ right: 250px;
 
 /* 
 sectionone styling ends here */
+
+
+/* section two styling starts here */
+#container{
+
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    }
+    
+    
+    #con1{
+        width: 500px;
+        height: 500px;
+        background-color: #ffffff; 
+        border: 1px solid  rgba(177, 176, 176, 0.864);
+        padding: 0px 25px 5px 0px;
+    }
+    
+    #box1{
+        height: 400px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+        
+    }
+    
+        
+    
+    #textone{
+        font-size: 18px;
+        font-weight:bold ;
+        font-family:Avian ;
+        font-style: normal;
+        color: #245B09;
+        text-align: center;
+        padding-top: 15px;
+    }
+    #texttwo{
+    display: flex;
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border: 1px solid rgba(255, 0, 0, 0.248);
+    font-family: Futura;
+    }
+    #texttwo-img{
+       margin:0 5px ;
+    }
+    #textthree{
+    display: flex;
+    margin:  30px auto 2px auto;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+    #textthree::before{
+        content: '';
+        display: inline-block;
+        /* box-sizing: border-box; */
+        width: 190px;
+        height: 1px;
+        background-color:  rgba(177, 176, 176, 0.864);
+        margin-right: 3px;
+    
+    }
+    #textthree::after{
+        content: '';
+        display: inline-block;
+        /* box-sizing: border-box; */
+        width: 190px;
+        height: 1px;
+        background-color: rgba(177, 176, 176, 0.864);
+        margin-left: 3px;
+    
+    }
+    
+    form{
+    color: white;
+    position: relative;
+    top:30px;
+    margin: auto;
+    width: 80%;
+    }
+    input{
+        padding: 5px 3px;
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+        outline: none;
+        border: 1px solid rgba(177, 176, 176, 0.864);
+        border-radius: 3px;
+    
+    }
+    ::placeholder{
+        color: rgba(216, 211, 211, 0.919);
+        padding-left: 11px;
+        font-size: 10px;
+    
+    }
+    
+    label{
+    color: #10150C;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Futura;
+    
+    }
+    
+    #mybtn{
+        background-color: #245B09;
+        color: #F3f7F1;
+        width: 100%;
+        padding: 10px 5px;
+        outline: none;
+        border-radius: 3px;
+        margin-top: 19px;
+        font-size: 12px;
+        font-weight: bold;
+    font-family: Futura;
+        border: none;
+    }
+    
+    
+    
+    #all{
+        display: flex;
+        position: relative;
+        top: 5px;
+        left: 90px;
+        
+        }
+        
+        #allone{
+        font-size: 10px;
+        float: left;
+        }
+        
+        #alltwo{
+            font-size: 10px;
+            float: right;
+          margin-left: 80px;
+            
+        }
+        
+    #textfour{
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-size: 10px;
+        color: black;
+    }
+    h4{
+        font-weight: bold;
+    font-family: Avian;
+    font-size: 10px;
+    }
+    a{
+        color: #245b09;
+        text-decoration: none;
+        cursor: grab;
+        font-weight: bold;
+    font-family: Avian;
+    }
