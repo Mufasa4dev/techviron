@@ -176,7 +176,7 @@ sectionone styling ends here */
     }
     ::placeholder{
         color: rgba(216, 211, 211, 0.919);
-        padding-left: 11px;
+        padding-left: 2px;
         font-size: 10px;
     
     }
@@ -203,7 +203,10 @@ sectionone styling ends here */
         border: none;
     }
     
-    
+    #mybtn:hover{
+        color: black;
+        background-color:#bce4a8 ;
+        }
     
     #all{
         display: flex;
