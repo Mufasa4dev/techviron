@@ -132,7 +132,7 @@ p, li{
 #sectiontwo_maindiv{
     width: 100%;
     height:1100px;
-    border:1px solid purple;
+    border:1px solid white;
 }
 #sectiontwo_image{
     width:78%;
@@ -141,7 +141,7 @@ p, li{
     /* margin:auto; */
     margin-top:100px;
     margin-left:120px;
-    background-image:url("images/pexels-resized.jpg");
+    background-image:url("../images/pexels-resized.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -206,7 +206,7 @@ p, li{
     /* margin:auto; */
     margin-top:50px;
     margin-left:120px;
-    background-image:url("images/women.jpg");
+    background-image:url("../images/women.jpg");
     background-size:cover;
 
 }
