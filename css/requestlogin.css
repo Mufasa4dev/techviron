@@ -35,7 +35,7 @@ margin: auto;
 .one{
 position: absolute;
 background:rgba(235, 231, 214, 0.015) ;
-top: 0px;
+top: px;
 left: 250px;
 transform: rotate(355.9deg);
 opacity: 0.5;
@@ -248,7 +248,10 @@ sectionone styling ends here */
         text-decoration: none;
         cursor: grab;
         font-weight: bold;
-    font-family: Avian;
+        font-family: Avian;
+    }
+    a:hover{
+        color: red;
     }
 
     /* styling to right hand box starts here */
