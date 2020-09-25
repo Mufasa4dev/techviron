@@ -85,17 +85,17 @@
 
                         </div>
                         <div>
-                            <form action="">
-                                <div><label for="">Your email</label> <br> <input type="text"
+                            <form onsubmit="return validate()" action="vehicle.html">
+                                <div><label for="">Your email</label> <br> <input id="mail" type="text"
                                         placeholder="john.doe@easybin.com" required></div>
-                                <div><label for="">Set password</label> <br> <input type="text"
+                                <div><label for="">Set password</label> <br> <input id="setpass" type="text"
                                         placeholder="***************" required></div>
                                 <button class="mybtn">Sign Up -></button>
                             </form>
 
                         </div>
                         <div id="textfour">
-                            <h4>Already a member? <a href="#">Log in</a></h4>
+                            <h4>Already a member? <a href="login.html">Log in</a></h4>
                         </div>
 
                     </div>
@@ -106,6 +106,7 @@
         <!-- ***********SECTION TWO  ENDS HERE*************** -->
         <!-- div ends here -->
     </div>
+    <script src="javascript/signup.js"></script>
 </body>
 
 </html>
