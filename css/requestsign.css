@@ -260,3 +260,73 @@ a:hover{
 
 
 /* section two styling ends here */
+
+
+
+ /* ......................... queries  ...............................*/
+
+@media (max-width:1300px){
+    body{
+        background-color: royalblue;
+    }
+    
+
+}
+@media(max-width:1150px){
+
+    body{
+        background-color: green;
+    }
+  
+}
+
+@media(max-width:970px){
+    body{
+        background-color: black;
+    }
+    
+    
+}
+@media(max-width:800px){
+    body{
+        background-color: rgb(190, 189, 189);
+        overflow-x: hidden;
+    }
+    
+    #con1{
+        width: 300px;
+        height: 500px;
+        background-color: green;
+        display:none;   
+        }
+
+        #con2{
+   
+            width: 500px;
+            height: 600px;
+            background-color: white; 
+            border: 1px solid  rgba(177, 176, 176, 0.864);
+            padding-right: 100px;
+            padding-left: 100px;
+         
+            margin-left:0px;
+            
+        }
+        #box2{
+         
+            height: 450px;
+            background-color: #FFFFFF;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 70px;
+           
+          
+        }
+        #main{
+
+            width: 100%;
+            margin: 0px;
+            padding-top:30px;
+            }
+        
+       
+}
