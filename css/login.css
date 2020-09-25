@@ -17,6 +17,10 @@
     font-style: normal;
     font-display: swap;
 }
+body{
+    background-color: #E5e5e5;
+    padding: 50px;
+}
 #main{
 
 width: 80%;
@@ -24,35 +28,33 @@ margin: auto;
 }
 
 /* section one styling starts here */
-#num{
 
-}
 .one{
     position: absolute;
     background:rgba(235, 231, 214, 0.015) ;
-    top: 0px;
-    left: 250px;
+    top: 36px;
+    left: 280px;
     transform: rotate(355.9deg);
-    opacity: 0.5;
+    opacity: 0.7;
     
     
     }
     .two{
      position: absolute;
      background:rgba(235, 231, 214, 0.015) ;
-    bottom: 150px;
-    left: 250px;
+    bottom: 52px;
+    left: 280px;
     transform: rotate(360.9deg);
+    opacity: 0.7;
     
     }
     
     .three{
     position: absolute;
     background:rgba(255, 251, 230, 0.0);
-    transform: rotate(57.9deg);
-    opacity: 0.5;
-    top: -10px;
-    right: 250px;
+    opacity: 0.7;
+    bottom: 50px;
+    right: 279px;
     
     
     }
@@ -62,10 +64,20 @@ margin: auto;
         background:rgba(255, 251, 230, 0.0) ;
         transform: rotate(); 
         opacity: 0.5;
-        bottom: 150px ;
-        left: 970px;
+        top: 50px ;
+        right: 280px;
   
     }
+    .five{
+        position: absolute;
+        background:rgba(255, 251, 230, 0.0) ;
+        transform: rotate(320.9deg); 
+        opacity: 0.5;
+        top: 165px ;
+        right: 510px;
+  
+    }
+    
     
 
 
@@ -86,14 +98,14 @@ display: flex;
 
 #con1{
     width: 500px;
-    height: 500px;
+    height: 544px;
     background-color: #ffffff; 
     border: 1px solid  rgba(177, 176, 176, 0.864);
     padding: 0px 25px 5px 0px;
 }
 
 #box1{
-    height: 400px;
+    height: 450px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
     margin-top: 50px;
@@ -177,19 +189,19 @@ input{
 ::placeholder{
     color: rgba(216, 211, 211, 0.919);
     padding-left: 11px;
-    font-size: 10px;
+    font-size: 13px;
 
 }
 
 label{
 color: #10150C;
-font-size: 10px;
+font-size: 16px;
 font-weight: bold;
 font-family: Futura;
 
 }
 
-#mybtn{
+.mybtn{
     background-color: #245B09;
     color: #F3f7F1;
     width: 100%;
@@ -199,10 +211,10 @@ font-family: Futura;
     margin-top: 15px;
     font-size: 12px;
     font-weight: bold;
-font-family: Avian;
+    font-family: Avian;
     border: none;
 }
-#mybtn:hover{
+.mybtn:hover{
     color: black;
     background-color:#bce4a8 ;
     }
@@ -218,36 +230,29 @@ font-family: Avian;
     }
     
     #allone{
-    font-size: 10px;
+    font-size: 16px;
     float: left;
     }
     
     #alltwo{
-        font-size: 10px;
+        font-size: 16px;
         float: right;
       margin-left: 80px;
         
     }
     
 
-
-
-
-
-
-
-
 #textfour{
     position: relative;
     top: 50px;
     text-align: center;
-    font-size: 10px;
+    font-size: 16px;
     color: black;
 }
 h4{
     font-weight: bold;
 font-family: Futura;
-font-size: 10px;
+font-size: 16px;
 }
 a{
     color: #245b09;
@@ -255,6 +260,10 @@ a{
     cursor: grab;
     font-weight: bold;
 font-family: Futura;
+font-size: 12px;
+}
+a:hover{
+    color: red;
 }
 
 
@@ -263,14 +272,14 @@ font-family: Futura;
 #con2{
 
  width: 300px;
-height: 500px;
+height: 550px;
 background-color: #2B50AA;   
     
 }
 
 #box2{
    
-    height: 400px;
+    height: 450px;
     color: #F3F7F1;
     background-color: #d6b63f;
     margin-top: 50px;
@@ -305,8 +314,8 @@ background-color: #2B50AA;
     #firsttext{
         /* border: 2px solid green; */
         font-size: 20px;
-        /* font-weight: lighter; */
         color: #F3F7F1;
+        text-align: right;
     
     }
     
@@ -314,10 +323,11 @@ background-color: #2B50AA;
         position: relative;
         top: 120px;
         /* border: 2px solid rgb(46, 43, 212); */
-        font-size: 10px;
+        font-size: 12px;
         font-weight: normal;
         font-style: normal;
         padding: 20px;
         font-family: Avian;
+        text-align: right;
         
     }
