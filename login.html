@@ -66,9 +66,9 @@
                         
                         </div>
                         <div>
-                            <form action="">
-                                <div><label for="">Your email</label> <br> <input type="text" placeholder="john.doe@easybin.com" required></div>
-                                <div><label for="">Password</label> <br> <input type="text" placeholder="*****" required></div>
+                            <form onsubmit=" return validate()" action="dashboard.html">
+                                <div><label for="">Your email</label> <br> <input id="mail" type="text" placeholder="john.doe@easybin.com" ></div>
+                                <div><label for="">Password</label> <br> <input  id="pass" type="text" placeholder="*****" ></div>
                                 <div id="all">
                                     <div id="allone">
                                     <a href="#">Remember me?</a>
@@ -77,15 +77,12 @@
                                     <a href="#">Forgot Password?</a>
                                     </div>
                                 </div>
-                                <button class="mybtn">Log in</button>
+                                <button class="mybtn">Log in</button> 
                             </form>
-
                         </div>
                         <div id="textfour">
                         <h4>Not a member? <a href="signup.html">Sign up here</a></h4>
                         </div>
-                        
-                       
 
                     </div>
                 </div>
@@ -123,6 +120,7 @@
 
     <!-- div ends here -->
     </div>
+    <script src="javascript/login.js"></script>
 </body>
 
 </html>
