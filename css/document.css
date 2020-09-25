@@ -1,0 +1,440 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family:Futura; 
+    src:url(../fonts/futura/futura\ medium\ bt.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family:Avian; 
+    src:url(../fonts/avian/Avian\ Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+background-color: #E5E5E5;
+padding-top: 50px;
+}
+
+    
+
+
+/* styling for background images starts here*/
+
+
+    .one{
+        position: absolute;
+       top: 50px;
+        left: 236px;
+        opacity: 0.6;
+        }
+
+    .two{
+        position: absolute;
+         top: 50px;
+        right: 520px;
+        opacity: 0.6;
+        }
+        .three{
+            position: absolute;
+           transform: rotate(360.9deg);
+            left: 237px;
+            bottom: -200px;
+             opacity: 0.7; 
+     
+            }
+            .four{
+                position: absolute;
+                transform: rotate(360deg);
+                top: 280px;
+                right: 238px;
+                opacity: 0.7;
+                
+                }
+                .five{
+                    position: absolute;
+                    opacity: 0.7;
+                    right:235px ;
+                    bottom:-290px;
+                    }
+                    .six{
+                        position: absolute;
+                         opacity: 0.6;
+                         bottom: -415px;
+                        right:236px ;
+                        
+                        }
+                       
+/* styling for background images ends here */
+
+
+
+
+#con{
+width: 65%;
+height: 950px;
+margin: auto;
+/* border: 2px solid yellow ; */
+}
+#con-con{
+    height: 220px;
+ /* border: 5px black solid; */
+}
+#con-one{
+
+    background-color: white;
+    height: 220px;
+    
+}
+
+#con-one-one{
+    /* border: 1px solid red; */
+    height: 70px;
+    margin-left:60px;
+  padding-top: 45px;
+}
+
+
+#con-one-two{
+    /* border: 1px solid rgb(42, 25, 192);  */
+    height: 50px;
+    width: 100%;
+    
+    display: flex;
+    text-align: center;
+}
+
+#con-one-two h3{
+font-weight: bold;
+font-family: Avian;
+font-style: normal;
+text-align: center;
+color: #10150C;
+ padding: 10px 0px 10px 0px; 
+ font-size: 30px;
+ margin-left: 320px;
+}
+#skip{
+   margin-left: 292px;
+   padding-top: 15px;
+   text-decoration: none;
+    
+}
+
+#skip a{
+    text-decoration: none;
+color: black;
+    
+}
+#con-one-three{
+    /* border: 1px solid rgb(24, 211, 108); */
+    height: 50px;
+}
+#con-one-three p{
+    font-weight: 400;
+    font-family: Futura;
+    line-height: 1.5rem;
+    text-align: center;
+    font-style: normal;
+   padding: 10px 0px 0px 0px;
+    color: #10150C;
+}
+
+
+
+/* section 2 con-two  styling with two divs*/
+#con-two{
+    
+    background-color: #2B50AA;
+    height: 900px;
+}
+#box{
+    display: block;
+    margin: auto;
+}
+
+#boxone{
+/* border: 1px solid red; */
+background-color: #FFFFFF;
+height: 750px;
+margin: 0px 60px;
+display: block;
+
+}
+
+/* select input type  starts here*/
+
+#myselect{
+    padding: 10px 0px 0px 0px;
+   
+}
+
+select{
+padding: 8px;
+font-size: 12px;
+font-weight: bold;
+background:rgba(196, 196, 196, 0.3);
+border: none;
+color: rgba(196, 196, 196, 0.8);
+border-radius: 5px;
+}
+label{
+    font-size: 12px;
+    font-weight: bold;
+}
+ 
+
+/* select input type  ends here*/
+
+
+#dl{
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+background: #FFFFFF;
+margin: 0px 80px 20px 80px;
+height: 140px;
+border-radius: 10px;
+padding-top: 5px;
+}
+
+#dl_one{
+    margin: 10px 0px 5px  0px;
+    /* border: 2px solid red; */
+    padding-left: 10px;
+}
+
+#dl_two{
+    /* border: 2px solid blue; */
+}
+#mybtnone{
+    background:  #245B09;
+    color: #FFFFFF;
+    font-family: Futura;
+    font-style: normal;
+    padding: 10px;
+    float: right;
+    margin-right: 15px;
+    border-radius: 10px;
+    
+    }
+
+/* driver license ends here */
+
+
+/* LASDRI CARD STARTS here */
+#lc{
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+background: #FFFFFF;
+margin: 0px 80px 20px 80px;
+height: 140px;
+border-radius: 10px;
+}
+#lc_one{
+/* border: 2px solid red; */
+margin: 0px 0px 5px  0px;
+padding-left: 10px;
+}
+
+h5{
+font-family: Avian;
+line-height: 1.5;
+color: #000000;
+}
+
+h4{
+color: #000000;
+font-weight: bold;
+font-style: normal;
+font-family: Futura;
+line-height: 1.5em;
+}
+
+a{
+color: #245B09;
+line-height: 1.5em;
+font-family: Futura;
+text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+#lc_two{
+    /* border: 2px solid blue; */
+}
+#mybtnone{
+background:  #245B09;
+color: #FFFFFF;
+font-family: Futura;
+font-style: normal;
+padding: 10px;
+float: right;
+margin-right: 15px;
+    border-radius: 10px;
+
+}
+
+/* LASDRI CARD ENDS here */
+
+/* DRIVER BADGE */
+#db{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    background: #FFFFFF;
+    margin: 0px 80px 20px 80px;
+    height: 160px;
+    border-radius: 10px;
+    
+}
+#db_one{
+    /* border: 2px solid red; */
+    margin: 0px 0px 5px  0px;
+    padding-left: 10px;
+}
+h2{
+    font-family: Avian;
+    line-height: 1.5;
+    color: #000000;
+    }
+    
+h5{
+    color: #000000;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Futura;
+    line-height: 1.5em;
+    }
+    
+a{
+    color: #245B09;
+    line-height: 1.5em;
+    font-family: Futura;
+    text-decoration: none;
+    }
+a:hover{
+        color: red;
+    }
+
+#db_two{
+    /* border: 2px solid blue; */
+}
+#mybtnone{
+background:  #245B09;
+color: #FFFFFF;
+font-family: Futura;
+font-style: normal;
+padding: 10px;
+float: right;
+margin-right: 15px;
+    border-radius: 10px;
+}
+
+/* DATA BADGE ends here */
+
+ /* DRIVERS PROFILE PICTURE styling ends here */
+#dp{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    background: #FFFFFF;
+    margin: 0px 80px 20px 80px;
+    height: 140px;
+    border-radius: 10px;
+}
+#dp_one{
+    /* border: 2px solid red; */
+    margin: 0px 0px 5px  0px;
+    padding-left: 10px;
+}
+h2{
+    font-family: Avian;
+    line-height: 1.5;
+    color: #000000;
+    }
+    
+h5{
+    color: #000000;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Futura;
+    line-height: 1.5em;
+    }
+    
+ a{
+    color: #245B09;
+    line-height: 1.5em;
+    font-family: Futura;
+    text-decoration: none;
+    
+    }
+ a:hover{
+        color: red;
+    }
+
+#dp_two{
+    /* border: 2px solid blue; */
+}
+#mybtnone{
+    background:  #245B09;
+    color: #FFFFFF;
+    font-family: Futura;
+    font-style: normal; 
+    padding: 10px;
+    font-weight: lighter;
+    float: right;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+ /* DRIVERS PROFILE PICTURE styling ends here */
+
+
+
+
+/* BOXTWO STYLING STARTS HERE */
+
+
+#boxtwo{
+    height: 80px;
+    margin: 0px 60px 60px 60px;
+    /* border:2px solid black; */
+    background:#E8C547;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#mybtn{
+display:inline-block;
+
+
+}
+#mybtn1{
+    background-color: #FFFF;
+    color: #10150C;
+    font: Futura, normal, normal,;
+    font-weight: bold;
+    padding: 10px;
+    outline: none;
+    border: none;
+    float: left;
+    margin-left: 70px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+#mybtn2{
+    background-color: #245B09;
+    color: #F1FAEA;
+    font: Futura, normal, normal, bold ;
+    padding: 10px;
+    outline: none;
+    border: none;
+    float: right;
+    margin-left: 400px;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+}
+
+
+/* section 2 con-two  styling */
