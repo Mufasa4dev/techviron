@@ -19,7 +19,7 @@
     font-display: swap;
 }
 body{
-background-color: #E5E5E5;
+
 }
 
 
@@ -85,7 +85,7 @@ margin: auto;
 }
 #con-con{
     height: 220px;
- /* border: 5px black solid; */
+
 }
 #con-one{
 
@@ -108,8 +108,9 @@ margin: auto;
     height: 50px;
     width: 100%;
   
+  
     display: flex;
-    text-align: center;
+   
 }
 
 #con-one-two h3{
@@ -126,6 +127,7 @@ color: #10150C;
    margin-left: 260px;
    padding-top: 15px;
    text-decoration: none;
+  
     
 }
 
@@ -155,10 +157,14 @@ color: black;
     
     background-color: #2B50AA;
     height: 650px;
+  
+  
 }
 #box{
     display: block;
     margin: auto;
+  
+    
 }
 
 #boxone{
@@ -166,6 +172,7 @@ color: black;
 background-color: white;
 height: 500px;
 margin: 0px 60px;
+
 
 }
 
@@ -199,19 +206,7 @@ border: 1px solid lightgray;
 color: rgba(16, 21, 12, 0.3);
 font-family: Futura;
 }
-/* .wrapper{
- 
-  display: flex;  
- 
 
-}
-#inputchk{
-    
-}
-
-#labelchk{
- 
-} */
 select{
     display: block;
     margin: 10px 0px;
@@ -284,3 +279,302 @@ display:inline-block;
 
 
 /* section 2 con-two  styling ends with two divs*/
+
+ /* ------------------ media queries ------------------ */
+
+ @media (max-width:1314px){
+    body{
+        overflow-x: hidden;
+       
+    }
+    #con-one-two{
+        /* border: 1px solid rgb(42, 25, 192);  */
+        height: 50px;
+        width: 100%;
+      
+        display: flex;
+        text-align: center;
+    }
+    #skip{
+        margin-left: 100px;
+        padding-top: 15px;
+        text-decoration: none;
+       
+         
+     }
+     .one{
+         display:none;
+     }
+     .two{
+        display:none;
+    }
+    .three{
+        display:none;
+    }
+    .four{
+        display:none;
+    }
+    .five{
+        display:none;
+    }
+   
+
+}
+@media(max-width:1150px){
+
+    body{
+        overflow-x: hidden;
+      
+    }
+    #con-one-two{
+        /* border: 1px solid rgb(42, 25, 192);  */
+        height: 50px;
+        width: 100%;
+        display: flex;
+       
+        
+       
+    }
+    #con-one-two h3{
+       
+        margin-left:200px;
+    }
+    #skip{
+        margin-left: 50px;
+        padding-top: 15px;
+        text-decoration: none;
+       
+         
+     }
+     #myform{
+        margin: 0px 100px;
+        }
+        #mybtn2{
+            background-color: #245B09;
+            color: #F1FAEA;
+            font: Futura, normal, normal, bold ;
+            padding: 10px;
+            outline: none;
+            border: none;
+            float: none;
+            margin-left: 250px;
+            margin-top: 15px;
+            border-radius: 5px;
+          
+            
+        }
+        .one{
+            display:none;
+        }
+        .two{
+           display:none;
+       }
+       .three{
+           display:none;
+       }
+       .four{
+           display:none;
+       }
+       .five{
+           display:none;
+       }
+     
+  
+}
+@media(max-width:1100px){
+    body{
+        overflow-x: hidden;
+       
+    }
+    #myform{
+        margin: 0px 60px;
+        }
+
+        #mybtn2{
+            background-color: #245B09;
+            color: #F1FAEA;
+            font: Futura, normal, normal, bold ;
+            padding: 10px;
+            outline: none;
+            border: none;
+            float: none;
+            margin-left: 200px;
+            margin-top: 15px;
+            border-radius: 5px;
+          
+            
+        }
+        .one{
+            display:none;
+        }
+        .two{
+           display:none;
+       }
+       .three{
+           display:none;
+       }
+       .four{
+           display:none;
+       }
+       .five{
+           display:none;
+       }
+  
+   
+    
+}
+
+@media(max-width:970px){
+    body{
+        overflow-x: hidden;
+       
+    }
+    #myform{
+        margin: 0px 30px;
+        }
+        input{
+            
+            width: 300px;
+            
+            }
+            select{
+                display: block;
+                margin: 10px 0px;
+                width: 320px;
+                padding: 10px;
+                border-radius: 5px;
+                color: rgba(16, 21, 12, 0.3);
+                background: #FDFDFD;
+                outline: none;
+            border: 1px solid lightgray;
+            }
+            #con-one-two h3{
+               
+                margin-left:150px;
+            }
+
+            #mybtn2{
+                background-color: #245B09;
+                color: #F1FAEA;
+                font: Futura, normal, normal, bold ;
+                padding: 10px;
+                outline: none;
+                border: none;
+                float: none;
+                margin-left: 150px;
+                margin-top: 15px;
+                border-radius: 5px;
+              
+                
+            }
+            #mybtn1{
+                background-color: #FFFF;
+                color: #10150C;
+                font: Futura, normal, normal,;
+                font-weight: bold;
+                padding: 10px;
+                outline: none;
+                border: none;
+                float: none;
+                margin-left: 20px;
+                margin-top: 15px;
+                border-radius: 5px;
+            }
+            #mybtn{
+                display:flex;
+                
+                
+                }
+                .one{
+                    display:none;
+                }
+                .two{
+                   display:none;
+               }
+               .three{
+                   display:none;
+               }
+               .four{
+                   display:none;
+               }
+               .five{
+                   display:none;
+               }
+        
+   
+    
+}
+@media(max-width:800px){
+    body{
+      
+        overflow-x: hidden;
+      
+    }
+    input{
+            
+        width: 150px;
+        
+        }
+        select{
+            display: block;
+            margin: 10px 0px;
+            width: 170px;
+            padding: 10px;
+            border-radius: 5px;
+            color: rgba(16, 21, 12, 0.3);
+            background: #FDFDFD;
+            outline: none;
+        border: 1px solid lightgray;
+        }
+        #con-one-two h3{
+          
+            margin-left:50px;
+        }
+        #mybtn2{
+            background-color: #245B09;
+            color: #F1FAEA;
+            font: Futura, normal, normal, bold ;
+            padding: 10px;
+            outline: none;
+            border: none;
+            float: none;
+            margin-left: 50px;
+            margin-top: 15px;
+            border-radius: 5px;
+          
+            
+        }
+        #mybtn1{
+            background-color: #FFFF;
+            color: #10150C;
+            font: Futura, normal, normal,;
+            font-weight: bold;
+            padding: 10px;
+            outline: none;
+            border: none;
+            float: none;
+            margin-left: 20px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        #mybtn{
+            display:flex;
+            
+            
+            }
+            .one{
+                display:none;
+            }
+            .two{
+               display:none;
+           }
+           .three{
+               display:none;
+           }
+           .four{
+               display:none;
+           }
+           .five{
+               display:none;
+           }
+}
