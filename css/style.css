@@ -710,6 +710,8 @@ ul li{
     }
     .menu_div a:hover{
         background-color: #245B09; 
+        color:white;
+        font-size:20px;
     }
     #sectiontwo_image{
        display:none;

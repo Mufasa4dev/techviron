@@ -453,36 +453,36 @@ ul li{
 @media(max-width:970px){
     
    body{
-       background-color: green;
+      
        overflow-x: hidden;
    } 
    .menu_div{
-  
     display:none;
     width:100%;
-   
   }
-  #bars{
-    display:block;
-    right:50px;
-    height:30px;
-    cursor:pointer;
-}
-
-.showmenu{
-display:block;
-}
-.menu_div a{
-display:block;
-height:70px;
-background-color: rgba(51, 51, 51,0.5 ) ;
-position:relative;
-top:56px;
-text-align:center;
-padding-top:20px;
-box-sizing: border-box;
-
-
+      #bars{
+          display:block;
+          right:50px;
+          height:30px;
+          cursor:pointer;
+      }
+  .showmenu{
+      display:block;
+  }
+  .menu_div a{
+      display:block;
+      height:70px;
+      background-color: rgba(51, 51, 51,0.5 ) ;
+      position:relative;
+      top:56px;
+      text-align:center;
+      padding-top:20px;
+      box-sizing: border-box;
+  }
+  .menu_div a:hover{
+      background-color: #245B09; 
+      color:white;
+      font-size:20px;
 
 
 }
@@ -731,8 +731,7 @@ ul li{
         padding-left:0px;
         font-size:10px;
     }
-    
-    
+   
   
    
 

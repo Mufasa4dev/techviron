@@ -257,6 +257,11 @@ a{
 a:hover{
     color: red;
 }
+#con2 a{
+    position: absolute; 
+    top: 80px; 
+    right:650px ;
+}
 
 
 /* section two styling ends here */
@@ -267,7 +272,16 @@ a:hover{
 
 @media (max-width:1300px){
     body{
-        background-color: royalblue;
+        overflow-x: hidden;
+    }
+
+    #leaf{
+        display:none;
+    }
+    #con2 a{
+        position: absolute; 
+    top: 130px; 
+    right:300px ;
     }
     
 
@@ -275,14 +289,14 @@ a:hover{
 @media(max-width:1150px){
 
     body{
-        background-color: green;
+        overflow-x: hidden;
     }
   
 }
 
 @media(max-width:970px){
     body{
-        background-color: black;
+        overflow-x: hidden;
     }
     
     
