@@ -1,8 +1,8 @@
-
 *{
     margin: 0;
     padding: 0;
 }
+
 @font-face{
     font-family:Futura; 
     src:url(../fonts/futura/futura\ medium\ bt.ttf);
@@ -18,9 +18,9 @@
     font-display: swap;
 }
 body{
-    padding-top:100px;
+    background-color: #E5e5e5;
+    padding: 50px;
 }
-
 #main{
 
 width: 80%;
@@ -28,295 +28,309 @@ margin: auto;
 }
 
 /* section one styling starts here */
-#num{
-
-}
 
 .one{
-position: absolute;
-background:rgba(235, 231, 214, 0.015) ;
-top: px;
-left: 250px;
-transform: rotate(355.9deg);
-opacity: 0.5;
-
-
-}
-.two{
- position: absolute;
- background:rgba(235, 231, 214, 0.015) ;
-bottom: 150px;
-left: 250px;
-transform: rotate(360.9deg);
-
-
-}
-
-.three{
-position: absolute;
-background:rgba(255, 251, 230, 0.0);
-transform: rotate(57.9deg);
-opacity: 0.5;
-top: -10px;
-right: 250px;
-
-
-}
-
-.four{
     position: absolute;
-    background:rgba(255, 251, 230, 0.0) ;
-    transform: rotate(); 
-    opacity: 0.5;
-    bottom: 150px ;
-    left: 970px;
+    background:rgba(235, 231, 214, 0.015) ;
+    top: 36px;
+    left: 280px;
+    transform: rotate(355.9deg);
+    opacity: 0.7;
+    
+    
+    }
+    .two{
+     position: absolute;
+     background:rgba(235, 231, 214, 0.015) ;
+    bottom: 52px;
+    left: 280px;
+    transform: rotate(360.9deg);
+    opacity: 0.7;
+    
+    }
+    
+    .three{
+    position: absolute;
+    background:rgba(255, 251, 230, 0.0);
+    opacity: 0.7;
+    bottom: 50px;
+    right: 279px;
+    
+    
+    }
+    
+    .four{
+        position: absolute;
+        background:rgba(255, 251, 230, 0.0) ;
+        transform: rotate(); 
+        opacity: 0.5;
+        top: 50px ;
+        right: 280px;
+  
+    }
+    .five{
+        position: absolute;
+        background:rgba(255, 251, 230, 0.0) ;
+        transform: rotate(320.9deg); 
+        opacity: 0.5;
+        top: 165px ;
+        right: 510px;
+  
+    }
+    
     
 
-}
 
-/* 
-sectionone styling ends here */
+/* section one styling ends here */
+
 
 
 /* section two styling starts here */
 #container{
 
-    width: 80%;
-    height: 500px;
-    /* border: 1px solid red; */
-    margin: auto;
-    display: flex;
-    }
+width: 80%;
+height: 500px;
+/* border: 1px solid red; */
+margin: auto;
+display: flex;
+}
+
+
+#con1{
+    width: 500px;
+    height: 544px;
+    background-color: #ffffff; 
+    border: 1px solid  rgba(177, 176, 176, 0.864);
+    padding: 0px 25px 5px 0px;
+}
+
+#box1{
+    height: 450px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
     
+}
+
     
-    #con1{
-        width: 500px;
-        height: 500px;
-        background-color: #ffffff; 
-        border: 1px solid  rgba(177, 176, 176, 0.864);
-        padding: 0px 25px 5px 0px;
-    }
-    
-    #box1{
-        height: 400px;
-        background-color: #FFFFFF;
-        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
-        margin-top: 50px;
-        
-    }
-    
-        
-    
-    #textone{
-        font-size: 18px;
-        font-weight:bold ;
-        font-family:Avian ;
-        font-style: normal;
-        color: #245B09;
-        text-align: center;
-        padding-top: 15px;
-    }
-    #texttwo{
-    display: flex;
-    width: 80%;
-    border: 1px solid red;
-    margin: auto;
-    margin-top: 25px;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    border: 1px solid rgba(255, 0, 0, 0.248);
-    font-family: Futura;
-    }
-    #texttwo-img{
-       margin:0 5px ;
-    }
-    #textthree{
-    display: flex;
-    margin:  30px auto 2px auto;
-    justify-content: center;
-    align-items: center;
-    
-    
-    }
-    #textthree::before{
-        content: '';
-        display: inline-block;
-        /* box-sizing: border-box; */
-        width: 190px;
-        height: 1px;
-        background-color:  rgba(177, 176, 176, 0.864);
-        margin-right: 3px;
-    
-    }
-    #textthree::after{
-        content: '';
-        display: inline-block;
-        /* box-sizing: border-box; */
-        width: 190px;
-        height: 1px;
-        background-color: rgba(177, 176, 176, 0.864);
-        margin-left: 3px;
-    
-    }
-    
-    form{
-    color: white;
-    position: relative;
-    top:30px;
-    margin: auto;
-    width: 80%;
-    }
-    input{
-        padding: 5px 3px;
-        display: block;
-        width: 100%;
-        margin-bottom: 5px;
-        outline: none;
-        border: 1px solid rgba(177, 176, 176, 0.864);
-        border-radius: 3px;
-    
-    }
-    ::placeholder{
-        color: rgba(216, 211, 211, 0.919);
-        padding-left: 2px;
-        font-size: 10px;
-    
-    }
-    
-    label{
-    color: #10150C;
-    font-size: 10px;
+
+#textone{
+    font-size: 18px;
+    font-weight:bold ;
+    font-family:Futura ;
+    font-style: normal;
+    color: #245B09;
+    text-align: center;
+    padding-top: 15px;
+}
+#texttwo{
+display: flex;
+width: 80%;
+border: 1px solid rgba(255, 0, 0, 0.248);
+
+margin: auto;
+margin-top: 25px;
+justify-content: center;
+align-items: center;
+padding: 10px 0;
+font-family: Futura;
+}
+
+#texttwo-img{
+   margin:0 5px ;
+}
+#textthree{
+display: flex;
+margin:  20px auto 2px auto;
+justify-content: center;
+align-items: center;
+font-family: Futura;
+
+
+}
+#textthree::before{
+    content: '';
+    display: inline-block;
+    /* box-sizing: border-box; */
+    width: 190px;
+    height: 1px;
+    background-color:  rgba(177, 176, 176, 0.864);
+    margin-right: 3px;
+
+}
+#textthree::after{
+    content: '';
+    display: inline-block;
+    /* box-sizing: border-box; */
+    width: 190px;
+    height: 1px;
+    background-color: rgba(177, 176, 176, 0.864);
+    margin-left: 3px;
+
+}
+
+form{
+color: white;
+position: relative;
+top:30px;
+margin: auto;
+width: 80%;
+}
+input{
+    padding: 5px 3px;
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    border: 1px solid rgba(177, 176, 176, 0.864);
+    border-radius: 3px;
+
+}
+::placeholder{
+    color: rgba(216, 211, 211, 0.919);
+    padding-left: 11px;
+    font-size: 13px;
+
+}
+
+label{
+color: #10150C;
+font-size: 16px;
+font-weight: bold;
+font-family: Futura;
+
+}
+
+.mybtn{
+    background-color: #245B09;
+    color: #F3f7F1;
+    width: 100%;
+    padding: 10px 5px;
+    outline: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    font-size: 12px;
     font-weight: bold;
-    font-family: Futura;
-    
-    }
-    
-    #mybtn{
-        background-color: #245B09;
-        color: #F3f7F1;
-        width: 100%;
-        padding: 10px 5px;
-        outline: none;
-        border-radius: 3px;
-        margin-top: 19px;
-        font-size: 12px;
-        font-weight: bold;
-    font-family: Futura;
-        border: none;
-    }
-    
-    #mybtn:hover{
-        color: black;
-        background-color:#bce4a8 ;
-        }
-    
-    #all{
-        display: flex;
-        position: relative;
-        top: 5px;
-        left: 90px;
-        
-        }
-        
-        #allone{
-        font-size: 10px;
-        float: left;
-        }
-        
-        #alltwo{
-            font-size: 10px;
-            float: right;
-          margin-left: 80px;
-            
-        }
-        
-    #textfour{
-        position: relative;
-        top: 50px;
-        text-align: center;
-        font-size: 10px;
-        color: black;
-    }
-    h4{
-        font-weight: bold;
     font-family: Avian;
-    font-size: 10px;
-    }
-    a{
-        color: #245b09;
-        text-decoration: none;
-        cursor: grab;
-        font-weight: bold;
-        font-family: Avian;
-    }
-    a:hover{
-        color: red;
+    border: none;
+}
+.mybtn:hover{
+    color: black;
+    background-color:#bce4a8 ;
     }
 
-    /* styling to right hand box starts here */
+
+
+#all{
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 90px;
+    
+    }
+    
+    #allone{
+    font-size: 16px;
+    float: left;
+    }
+    
+    #alltwo{
+        font-size: 16px;
+        float: right;
+      margin-left: 80px;
+        
+    }
+    
+
+#textfour{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+h4{
+    font-weight: bold;
+font-family: Futura;
+font-size: 16px;
+}
+a{
+    color: #245b09;
+    text-decoration: none;
+    cursor: grab;
+    font-weight: bold;
+font-family: Futura;
+font-size: 12px;
+}
+a:hover{
+    color: red;
+}
+
+
+/* styling to right hand box starts here */
 
 #con2{
 
-    width: 300px;
-   height: 500px;
-   background-color: #2B50AA;   
-       
-   }
+ width: 300px;
+height: 550px;
+background-color: #2B50AA;   
+    
+}
+
+#box2{
    
-   #box2{
-      
-       height: 400px;
-       color: #F3F7F1;
-       background-color: #d6b63f;
-       margin-top: 50px;
-       margin-right: 50px;
-       border-top-right-radius:7px ;
-       border-bottom-right-radius: 7px; 
-       line-height: 1.5rem; 
-       font-family: Futura; 
-       
-       
-       /* border: 1px solid blue; */
-      
-   }
+    height: 450px;
+    color: #F3F7F1;
+    background-color: #d6b63f;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-top-right-radius:7px ;
+    border-bottom-right-radius: 7px; 
+    line-height: 1.5rem; 
+    font-family:Futura; 
+    
+    
+    /* border: 1px solid blue; */
    
-       #first{
-           width: 100px;
-           /* border: 1px solid rgba(255, 0, 0, 0.59); */
-           display: flex;
-           position: relative;
-           top: 120px;
-           padding-left: 20px;
-           justify-content: center;
-           align-items: center;
-       }
-       
-       #firstlogo{
-           /* border: 2px solid rgb(138, 47, 212); */
-           padding-right: 7px;
-           margin-left: 160px;
-       }
-       
-       #firsttext{
-           /* border: 2px solid green; */
-           font-size: 20px;
-           /* font-weight: lighter; */
-           color: #F3F7F1;
-       
-       }
-       
-       #secondtext{
-           position: relative;
-           top: 120px;
-           /* border: 2px solid rgb(46, 43, 212); */
-           font-size: 10px;
-           font-weight: normal;
-           font-style: normal;
-           padding: 20px;
-           font-family: Avian;
-           
-       }
+}
+
+    #first{
+        width: 100px;
+        /* border: 1px solid rgba(255, 0, 0, 0.59); */
+        display: flex;
+        position: relative;
+        top: 120px;
+        padding-left: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #firstlogo{
+        /* border: 2px solid rgb(138, 47, 212); */
+        padding-right: 7px;
+        margin-left: 160px;
+    }
+    
+    #firsttext{
+        /* border: 2px solid green; */
+        font-size: 20px;
+        color: #F3F7F1;
+        text-align: right;
+    
+    }
+    
+    #secondtext{
+        position: relative;
+        top: 120px;
+        /* border: 2px solid rgb(46, 43, 212); */
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        padding: 20px;
+        font-family: Avian;
+        text-align: right;
+        
+    }
 
  /* ------------------ media queries ------------------ */
 

@@ -17,6 +17,11 @@
     font-style: normal;
     font-display: swap;
 }
+
+body{
+    background-color: #E5e5e5;
+    padding: 50px;
+}
 #main{
 
 width: 80%;
@@ -30,39 +35,51 @@ margin: auto;
 
 .one{
 position: absolute;
-background:rgba(255, 251, 230, 0.0);
-top: -15px;
-left: 180px;
-transform: rotate(69.9deg);
+top: 50px;
+left: 278px;
 opacity: 0.5;
 
 }
 .two{
  position: absolute;
-background:rgba(255, 251, 230, 0.0);
+
 bottom: 60px;
-left: 210px;
-transform: rotate(69.9deg);
+left: 300px;
+transform: rotate(360.9deg);
 opacity: 0.5;
 }
  .three{
     position: absolute;
-  top: -1px;
-  right: 300px;
+  bottom: 50px;
+  left: 480px;
   transform: rotate(362.9deg);
-  background:rgba(255, 251, 230, 0.0);
+
   opacity: 0.5;
-  
-   
+
    }
 .four{
     position: absolute;
-  bottom: 150px ;
-  left: 970px;
+  bottom: 250px ;
+  right: 670px;
   transform: rotate(360.9deg);
-background:rgba(255, 251, 230, 0.0);
+opacity: 0.7;
+   } 
+   .five{
+    position: absolute;
+  bottom:45px ;
+  right: 280px;
+  transform: rotate(360.9deg);
+opacity: 0.7;
+   } 
+
+   .six{
+    position: absolute;
+  top: 50px ;
+ right: 280px;
+  transform: rotate(360.9deg);
 opacity: 0.5;
    } 
+
 
 
 
@@ -85,12 +102,12 @@ display: flex;
 
 #con1{
 width: 300px;
-height: 500px;
+height: 554px;
 background-color: #2B50AA;   
 }
 
 #box1{
-    height: 400px;
+    height: 450px;
     color: #F3F7F1;
     background-color: #d6b63f;
     margin-top: 50px;
@@ -98,7 +115,7 @@ background-color: #2B50AA;
     border-top-left-radius:7px ;
     border-bottom-left-radius: 7px; 
     line-height: 1.5rem; 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-family: Futura; 
     
 }
 
@@ -134,7 +151,7 @@ background-color: #2B50AA;
     font-weight: normal;
     font-style: normal;
     padding: 20px;
-    font-family: Avian;
+    font-family: Futura;
     
 }
 
@@ -144,9 +161,8 @@ background-color: #2B50AA;
 #con2{
    
     width: 500px;
-    height: 500px;
+    height: 550px;
     background-color: #ffffff; 
-    border: 1px solid  rgba(177, 176, 176, 0.864);
     padding: 0px 25px 5px 0px;
    
     
@@ -156,21 +172,17 @@ background-color: #2B50AA;
 
 #box2{
    
-    height: 400px;
+    height: 450px;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
     margin-top: 50px;
-  
-   
-    
-    /* border: 1px solid blue; */
+ 
    
     
 }
 #textone{
-    font-size: 18px;
+    font-size: 17px;
     font-weight:bold ;
-    font-family: Avian;
+    font-family: Futura;
     font-style: normal;
     color: #245B09;
     text-align: center;
@@ -239,24 +251,24 @@ input{
     outline: none;
     border: 1px solid rgba(177, 176, 176, 0.864);
     border-radius: 3px;
+    font-family: Futura;
 
 }
 ::placeholder{
     color: rgba(216, 211, 211, 0.919);
-    padding-left: 11px;
-    font-size: 10px;
+    font-size: 14px;
 
 }
 
 label{
 color: #10150C;
-font-size: 10px;
+font-size: 14px;
 font-weight: bold;
 font-family: Futura;
 
 }
 
-#mybtn{
+.mybtn{
     background-color: #245B09;
     color: #F3f7F1;
     width: 100%;
@@ -264,12 +276,12 @@ font-family: Futura;
     outline: none;
     border-radius: 3px;
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
 font-family: Futura;
     border: none;
 }
-#mybtn:hover{
+.mybtn:hover{
 color: black;
 background-color:#bce4a8 ;
 }
@@ -277,13 +289,15 @@ background-color:#bce4a8 ;
     position: relative;
     top: 50px;
     text-align: center;
-    font-size: 10px;
+    font-size: 16px;
+    font-family: Futura;
     color: black;
+    
 }
 h4{
     font-weight: bold;
 font-family: Futura;
-font-size: 10px;
+font-size: 16px;
 }
 a{
     color: #245b09;
@@ -291,6 +305,10 @@ a{
     cursor: grab;
     font-weight: bold;
 font-family: Futura;
+font-size: 14px;
+}
+a:hover{
+    color: red;
 }
 
 
