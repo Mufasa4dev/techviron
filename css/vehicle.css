@@ -294,6 +294,7 @@ display:inline-block;
       
         display: flex;
         text-align: center;
+        padding-top:50px;
     }
     #skip{
         margin-left: 100px;
@@ -317,6 +318,10 @@ display:inline-block;
     .five{
         display:none;
     }
+    #con-one-one{
+        display:none;
+    }
+ 
    
 
 }
