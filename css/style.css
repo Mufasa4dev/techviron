@@ -52,7 +52,7 @@ p, li{
    
     height:40px;
     display:flex;
- 
+
 
     
 }
@@ -81,6 +81,7 @@ p, li{
     height:20px;
     font-family:Futura;
     width:40%;
+   
 }
 .menu_div a{
    text-decoration:none;
@@ -211,8 +212,8 @@ p, li{
     height:70px;
     /* border:1px solid green; */
     position:absolute;
-    left:290px;
-    top:720px;
+    left:250px;
+    top:700px;
   
 }
 #upper_div_img img{
@@ -527,22 +528,56 @@ ul li{
 }
 /*--------------------- MEDIA QUERIES------------------------- */
 @media (max-width:1300px){
+    body{
+        overflow-x: hidden;
+    }
     #upper_div_img{
         width:40px;
         height:70px;
         /* border:1px solid green; */
         position:absolute;
-      left:200px;
-      top:720px;
+      left:150px;
+      top:700px;
     }
-}
-@media(max-width:1150px){
     .menu_div{
-        margin-left:200px;
+        margin-left:150px;
         margin-top:5px;
         height:20px;
         font-family:Futura;
         width:40%;
+    }
+    .menu_div a{
+        text-decoration:none;
+        color:black;
+        margin-right:10px;
+     }
+     #sectiontwo_image{
+        width: 400px;
+        height: 300px;
+        /* border:1px solid black; */
+        margin-left:50px;
+    }
+    .sectionfour_btn_two{
+        
+        width:40%;
+       
+    }
+    
+}
+@media(max-width:1150px){
+    body{
+        overflow-x: hidden;
+    }
+    .menu_div{
+        margin-left:100px;
+        margin-top:5px;
+        height:20px;
+        font-family:Futura;
+        width:50%;
+        /* border:solid; */
+      
+        
+        
     }
     #login_here button{
         padding:15px;
@@ -566,26 +601,48 @@ ul li{
         height:70px;
         /* border:1px solid green; */
         position:absolute;
-      left:180px;
-      top:720px;
+      left:150px;
+      top:700px;
+    }
+    .menu_div a{
+        text-decoration:none;
+        color:black;
+        margin-right:30px;
+     }
+     .sectionfour_btn_two{
+        
+        width:40%;
+       
     }
 }
 @media(max-width:1130px){
+
+    body{
+        overflow-x: hidden;
+    }
     .menu_div{
-        margin-left:150px;
+        margin-left:80px;
         margin-top:5px;
         height:20px;
         font-family:Futura;
+        width:50%;
+    }
+    .sectionfour_btn_two{
+        
         width:40%;
+       
     }
 }
 @media(max-width:1129px){
+    body{
+        overflow-x: hidden;
+    }
     .menu_div{
-        margin-left:200px;
+        margin-left:60px;
         margin-top:5px;
         height:20px;
         font-family:Futura;
-        width:40%;
+        width:50%;
     }
     .menu_div a{
         text-decoration:none;
@@ -597,30 +654,55 @@ ul li{
         height:70px;
         /* border:1px solid green; */
         position:absolute;
-      left:170px;
-      top:720px;
+      left:150px;
+      top:700px;
+    }
+    #sectiontwo_text{
+        margin-right: 0px;
+       
+    }
+    .sectionfour_btn_two{
+        
+        width:40%;
+       
     }
 }
 @media(max-width:1100px){
+    body{
+        overflow-x: hidden;
+    }
     .menu_div{
-        margin-left:100px;
+        margin-left:30px;
         margin-top:5px;
         height:20px;
         font-family:Futura;
-        width:40%;
+        width:90%;
     }
     .menu_div a{
         text-decoration:none;
         color:black;
         margin-right:30px;
      }
+     #sectiontwo_text{
+         margin-right: 0px;
+     }
      #sectiontwo_text h3{
         font-size:25px;
         margin-bottom:15px;
     }
     #sectiontwo_text p{
-        font-size:10px;
-        margin-bottom:20px;
+        font-size:15px;
+    }
+    #sectiontwo_image{
+        width: 400px;
+        height: 300px;
+        /* border:1px solid black; */
+        margin-left:50px;
+    }
+    .sectionfour_btn_two{
+        
+        width:60%;
+       
     }
     #google_play{
         width: 80px;
@@ -636,37 +718,47 @@ ul li{
         height:70px;
         /* border:1px solid green; */
         position:absolute;
-      left:120px;
-      top:720px;
+      left:100px;
+      top:700px;
     }
 }
 @media(max-width:990px){
+    body{
+        overflow-x: hidden;
+    }
     .menu_div{
-        margin-left:100px;
+        margin-left:30px;
         margin-top:5px;
         height:20px;
         font-family:Futura;
-        width:40%;
+        width:60%;
     }
     .menu_div a{
         text-decoration:none;
         color:black;
         margin-right:30px;
      }
+     #login_here button{
+         right:50px;
+     }
      #sectiontwo_text{
         /* border:solid red 1px; */
         padding-top:70px;
         height:250px;
         width:50%;
+       
+     }
+     #sectiontwo_text p{
+         font-size:15px;
      }
      #sectiontwo_image{
         width: 400px;
         height: 300px;
-        border:1px solid black;
+        /* border:1px solid black; */
         margin-left:0px;
     }
     #upper_div_img{
-      left:150px;
+      left:130px;
     }
     #sectionfour_text{
         margin-left:0px;
@@ -677,14 +769,27 @@ ul li{
         padding-left:90px;
         /* border:1px solid purple; */
     }
+    .sectionfour_btn_two{
+        
+        width:50%;
+       
+    }
     .sectionsix_img{
-        margin-left:80px;
+        margin-left:150px;
         width:100px;
         height:100px;
         margin-right:50px;
     }
+    #sectionnine_maindiv_img{
+        display:flex;
+       margin-left:350px;
+       margin-bottom:30px;
+    }
 }
 @media(max-width:970px){
+    body{
+        overflow-x: hidden;
+    }
     .menu_div{
       display:none;
       width:100%;
@@ -713,6 +818,9 @@ ul li{
         color:white;
         font-size:20px;
     }
+    #login_here button{
+        right:70px;
+    }
     #sectiontwo_image{
        display:none;
     }
@@ -740,7 +848,7 @@ ul li{
     }
     #upper_div_img{
         left:50px;
-        top: 600px;
+        top: 570px;
       }
       #sectionthree_maindiv{
         width:100%;
@@ -759,6 +867,11 @@ ul li{
         padding-top:100px;
         padding-left:50px;
         /* border:1px solid purple; */
+    }
+    .sectionfour_btn_two{
+        
+        width:80%;
+       
     }
     .sectionsix_img{
         margin-left:50px;
