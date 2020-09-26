@@ -40,24 +40,7 @@ padding-top: 50px;
         left: 660px;
         opacity: 0.6;
         }
-        .three{
-            position: absolute;
-            background:rgba(235, 231, 214, 0.015) ;
-            transform: rotate(360deg);
-            left: 239px;
-            bottom: 180px;
-             opacity: 0.3; 
-     
-            }
-            .four{
-                position: absolute;
-                background:rgba(235, 231, 214, 0.015) ;
-                transform: rotate(360deg);
-                top: 170px;
-                right: 240px;
-                opacity: 0.3;
-                
-                }
+        
 /* styling for background images ends here */
 
 #con{
@@ -124,7 +107,7 @@ color: #10150C;
 /* section 2 con-two  styling with two divs*/
 #con-two{
     
-    background-color: #2B50AA;
+    background-color: #FDFDFD;
     height: 360px;
 }
 #box{
@@ -213,7 +196,7 @@ boxtwo styling begins here */
 
 #boxtwo{
     height: 60px;
-    margin: 0px 60px 60px 60px;
+    margin: 15px 60px 60px 60px;
     /* border:2px solid black; */
     background:#E8C547;
     border-bottom-left-radius: 8px;
