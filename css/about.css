@@ -459,6 +459,7 @@ ul li{
 
 @media(max-width:1300px){
     body{
+      
         overflow-x: hidden;
     }
     .menu_div{
@@ -495,6 +496,109 @@ ul li{
         margin-right:10px;
         
      }
+     .transparent h3{
+        margin-left:650px;
+        padding-top:100px;
+        font-size:30px;
+        color:white;
+       
+       
+    }
+   
+    
+    #mission_maindiv{
+        display:flex;
+        margin-left:90px;
+    }
+    .visionmission_text{
+        margin-right:20px;
+        /* border:1px solid green; */
+        padding-top:50px;
+        font-size:20px;
+    }
+    #sectionthree_image h3{
+        margin-left:600px;
+        padding-top:50px;
+        font-size:30px;
+        color:white;
+    }
+     
+}
+
+@media(max-width:1150px){
+    body{
+       
+        overflow-x: hidden;
+    }
+    .menu_div{
+        margin-left:100px;
+        margin-top:5px;
+        height:20px;
+        font-family:Futura;
+        width:50%;
+        /* border:solid; */
+      
+        
+        
+    }
+    #login_here button{
+        padding:15px;
+        position:absolute;
+        top:14px;
+        background-color:#245B09;
+        border-radius: 2px;
+        color:white;
+        border:none;
+        right:100px;
+        font-family:Futura;
+    }
+    
+    
+    .menu_div a{
+        text-decoration:none;
+        color:black;
+        margin-right:30px;
+     }
+     .transparent h3{
+        margin-left:650px;
+        padding-top:100px;
+        font-size:30px;
+        color:white;
+       
+       
+    }
+    #mission_maindiv{
+        display:flex;
+        margin-left:70px;
+    }
+    
+}
+@media(max-width:1130px){
+
+    body{
+      
+        overflow-x: hidden;
+    }
+    .menu_div{
+        margin-left:50px;
+        margin-top:5px;
+        height:20px;
+        font-family:Futura;
+        width:70%;
+    }
+    #mission_maindiv{
+        display:flex;
+        margin-left:30px;
+    }
+    .transparent h3{
+        margin-left:500px;
+        padding-top:100px;
+        font-size:30px;
+        color:white;
+       
+       
+    }
+    
 }
 
 
@@ -540,11 +644,17 @@ ul li{
     
     
     }
-    .menu_div a:hover{
-    
-    background-color: #245B09; 
-    
+    #about{
+        color:black;
+        border-bottom: hidden;
     }
+    
+    #about:hover{
+        background-color: #245B09; 
+          color:white;
+          font-size:20px;
+    }
+    
     #sectiontwo_maindiv{
         width:100%;
     
@@ -558,7 +668,7 @@ ul li{
         margin-left:0px;
     }
     #sectiontwo_image h3{
-        margin-left:300px;
+        margin-left:700px;
         margin-top:100px;
         font-size:30px;
     }
@@ -570,20 +680,10 @@ ul li{
         margin-top:50px;
         margin-left:0px;
         margin-bottom:200px;
-        display:block;
+        display:flex;
     
     }
-    #mission_maindiv{
-        display:flex;
-        margin-left:0px;
-        width:100%;
-        /* border:1px solid black; */
     
-    }
-    #vision_div{
-        display:flex;
-        margin-bottom:50px;
-    }
     #sectiontwo_imagetwo{
         width:100%;
         height:250px;
@@ -800,13 +900,10 @@ ul li{
            padding-left:70px;
         }
        
-       
-      
-       
-    
-       
+             
 
 }
+@media(max-width:)
 
 
 
@@ -857,11 +954,19 @@ ul li{
           font-size:20px;
     
     
+
     }
-    .menu_div a:hover{
+
     
-    background-color: #245B09; 
+    #about{
+        color:black;
+        border-bottom: hidden;
+    }
     
+    #about:hover{
+        background-color: #245B09; 
+          color:white;
+          font-size:20px;
     }
     #sectiontwo_maindiv{
         width:100%;
@@ -1163,6 +1268,9 @@ ul li{
       
        overflow-x: hidden;
    } 
+   #header{
+       padding-left:70px;
+   }
    .menu_div{
     display:none;
     width:100%;
@@ -1193,10 +1301,18 @@ ul li{
 
 
 }
-.menu_div a:hover{
+#about{
+    color:black;
+    border-bottom: hidden;
+}
 
-background-color: #245B09; 
-
+#about:hover{
+    background-color: #245B09; 
+      color:white;
+      font-size:20px;
+}
+#login_here button{
+    left:280px;
 }
 #sectiontwo_maindiv{
     width:100%;
@@ -1290,7 +1406,7 @@ background-color: #245B09;
 }
 #sectionnine_maindiv_img{
     display:flex;
-   margin-left:50px;
+   margin-left:40px;
    margin-bottom:30px;
 }
 #sectionten_maindiv{
@@ -1351,7 +1467,7 @@ ul li{
   
     display:flex;
     padding-top:20px;
-    padding-left:40px;
+    padding-left:0px;
     padding-bottom:20px;
     text-align:center; 
 
