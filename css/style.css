@@ -33,6 +33,7 @@ p, li{
     /* border:1px solid red; */
     box-sizing: border-box;
     background: #E5E5E5;
+    
    
 }
 #header{
@@ -40,18 +41,30 @@ p, li{
     display:flex;
     padding-left:116px;
     padding-top:20px;
-    background-color:white;
     height:80px;
     box-sizing: border-box;
     position:fixed;
-    background: #dfdddd;
-    z-index: 2;
+    background: #FFFAE9;
+    z-index: 3;
     
+}
+#top_leaf{
+    width:100%;
+    height:80px;
+    position:absolute;
+    z-index:-1;
+    left:0px;
+    top:0px;
+    opacity:0.05;
+}
+#top_leaf img{
+    width:100%;
 }
 #logo_div{
    
     height:40px;
     display:flex;
+    
 
 
     
@@ -130,16 +143,29 @@ p, li{
     /* border:1px solid green; */
     height:500px;
    display:flex;
-  
    padding-top:200px;
    padding-left:116px;
   
   
+  
+}
+#left_leaf{
+width:306px;
+height:500px;
+position:absolute;
+left:0px;
+top:50px;
+opacity:0.05;
+
+}
+#left_leaf img{
+    width:100%;
 }
 #sectiontwo_text{
    /* border:solid red 1px; */
    padding-top:50px;
    height:250px;
+   z-index:2;
 }
 #sectiontwo_text h3{
     font-size:30px;
@@ -150,12 +176,25 @@ p, li{
     margin-bottom:20px;
     line-height: 20px;
 }
+#right_leaf{
+width:100px !important;
+height:100px;
+position:absolute;
+right:600px;
+top:70px;
+opacity:0.05;
+/* border:1px solid red; */
+}
+#right_leaf{
+    width:100%;
+}
 
 #sectiontwo_image{
     width: 450px;
     height: 300px;
     /* border:1px solid black; */
     margin-left:240px;
+    z-index:2;
 }
 
 #sectiontwo_image img{
@@ -189,10 +228,26 @@ p, li{
     /* border:1px solid blue;
     */
 }
+#center_leaf {
+    width:1000px;
+    height:1000px;
+    position:absolute;
+right:0px;
+top:500px;
+opacity:0.05;
+
+
+
+}
+#center_leaf img{
+    width:100%;
+}
 #upper_div{
    
     /* border:1px solid grey; */
     display:flex;
+    
+   
     
    
   
@@ -206,6 +261,7 @@ p, li{
     width:70%;
     /* border:1px solid red; */
     margin-bottom:50px;
+    z-index:2;
 }
 #upper_div_img{
     width:40px;
@@ -234,6 +290,7 @@ p, li{
     background-color: #E8C547;
     width: 100%;
    text-align:center;
+   z-index:2;
    
 }
 #middle_div h3{
@@ -241,10 +298,12 @@ p, li{
     margin-bottom:10px;
     color: #10150C;
   padding-top:20px;
+  z-index:2;
 }
 #middle_div p{
     margin-bottom:20px;
     color: #10150C;
+    z-index:2;
 }
 
 
@@ -288,6 +347,7 @@ p, li{
     line-height: 40px;
 }
 #sectionfour_btn{
+  
     padding:15px;
     background-color:#245B09;
     border-radius: 2px;
@@ -308,14 +368,27 @@ color:white;
     /* border:1px solid rgb(29, 8, 1); */
     margin-top:50px;
 }
+#rightdown_leaf{
+    width:500px;
+    height:500px;
+    position:absolute;
+    right:0px;
+    top:1200px;
+    opacity:0.05;
+   
+}
+#rightdown_leaf img{
+    width:100%;
+}
 #sectionfour_bottom h3{
     font-size:30px;
     margin-bottom:20px;
    
 }
 #sectionfour_bottom p{
+   
     font-size:15px;
-    margin-bottom:20px;
+    margin-bottom: 50px;
     color: #10150C;
    
 }
@@ -340,15 +413,55 @@ color:white;
     width:100%;
     text-align:center;
     margin-top:100px;
+    
+}
+#leftdown_leaf{
+    width:200px;
+    height:1000px;
+    position: absolute;
+    top:2300px;
+    left:0px;
+    opacity:0.05;
+  
+
+}
+#leftdown_leaf img{
+    width:100%;
+
 }
 .sectionfive_divs{
     width:82%;
     height:300px;
     /* border:1px solid black; */
     margin:auto;
-    margin-bottom:70px;
+    margin-bottom:150px;
+   
 }
 .sectionfive_divs img{
+    width:100%;
+}
+#second_left_down_leaf{
+    width:300px;
+    height:300px;
+    position: absolute;
+    top:3600px;
+    left:0px;
+    opacity:0.05;
+   
+}
+#second_left_down_leaf img{
+    width:100%;
+}
+#second_right_down_leaf{
+    width:200px;
+    height:100px;
+    position: absolute;
+    top:3600px;
+    right:0px;
+    opacity:0.05;
+   
+}
+#second_right_down_leaf img{
     width:100%;
 }
 #sectionsix_top{
@@ -378,6 +491,7 @@ color:white;
     width:200px;
     height:300px;
     margin-right:100px;
+    z-index: 2;
 }
 .sectionsix_img img{
     width:100%;
@@ -441,6 +555,20 @@ color:white;
     height:500px;
     /* border:1px solid blue; */
 }
+#bottom_left{
+    width:500px !important;
+    height:500px;
+    position: absolute;
+    top:4300px;
+    left:0px;
+    opacity:0.05;
+    
+   
+}
+
+#bottom_left img{
+    width:100%;
+}
 #sectioneight_maindiv_img{
     width:1070px;
     height:300px;
@@ -492,6 +620,20 @@ color:white;
     display:flex;
     margin-right:200px;
     margin-bottom:10px;
+}
+#bottom_right{
+    width:500px ;
+    height:300px;
+    position: absolute;
+    top:5350px;
+    right:0px;
+    opacity:0.05;
+  
+   
+}
+
+#bottom_right img{
+    width:100%;
 }
 .sectionten_div{
     margin-right:100px;
@@ -725,7 +867,9 @@ ul li{
 @media(max-width:990px){
     body{
         overflow-x: hidden;
+      
     }
+  
     .menu_div{
         margin-left:30px;
         margin-top:5px;
@@ -789,14 +933,37 @@ ul li{
 @media(max-width:970px){
     body{
         overflow-x: hidden;
+        
     }
+    #main_container{
+        width:440px;
+        box-sizing: border-box;
+        background: #E5E5E5;
+       
+       
+    }
+    #header{
+        width:100%;
+        display:flex;
+        padding-left:10px !important;
+        padding-top:20px;
+        background-color:white;
+        height:80px;
+        box-sizing: border-box;
+        position:fixed;
+        background: #dfdddd;
+        z-index: 3;
+        
+    }
+
+   
     .menu_div{
       display:none;
       width:100%;
     }
         #bars{
             display:block;
-            right:50px;
+            right:70px;
             height:30px;
             cursor:pointer;
         }
@@ -819,7 +986,7 @@ ul li{
         font-size:20px;
     }
     #login_here button{
-        right:70px;
+        right:100px;
     }
     #sectiontwo_image{
        display:none;
@@ -829,7 +996,7 @@ ul li{
         padding-top:70px;
         height:250px;
         width:100%;
-        padding-left:100px;
+        padding-left:50px;
      }
      #sectiontwo_text h3{
         font-size:30px;
@@ -847,8 +1014,9 @@ ul li{
        padding-left:0px;
     }
     #upper_div_img{
-        left:50px;
+        left:20px;
         top: 570px;
+        
       }
       #sectionthree_maindiv{
         width:100%;
@@ -856,6 +1024,15 @@ ul li{
         /* border:1px solid blue; */
         margin-bottom:100px;
     }
+    #middle_div{
+    height:220px;
+    background-color: #E8C547;
+    width: 100%;
+   text-align:center;
+  
+   padding-bottom:50px;
+   
+}
     #middle_div{
         height:270px;
         background-color: #E8C547;
@@ -869,25 +1046,44 @@ ul li{
         /* border:1px solid purple; */
     }
     .sectionfour_btn_two{
-        
+       
         width:80%;
        
     }
+    #sectionfour_img{
+        display:none;
+    }
+    .sectionfive_divs{
+        width:82%;
+        height:100px;
+        /* border:1px solid black; */
+        margin:auto;
+        margin-bottom:50px;
+      
+    }
     .sectionsix_img{
-        margin-left:50px;
+        margin-left:20px;
         width:100px;
         height:100px;
-        margin-right:50px;
+        margin-right:20px;
+       
     }
     .sectionsix_img img{
         width:100%;
+        
     }
     .sectionsix_img h3{
         line-height:20px;
+      
     }
     .sectionsix_img p{
         font-size:12px;
         line-height:20px;
+       
+        
+    }
+    #sectionseven_maindiv{
+        margin-top:0px;
     }
     #sectionseven_maindiv_text{
         width:500px;
@@ -913,11 +1109,12 @@ ul li{
         height:300px;
         /* border:1px solid red; */
         margin-left:0px;
+       
     }
     #sectioneight_maindiv_icon{
         position:absolute;
         right:60px;
-        top:4600px;
+        top:3650px;
         width:60px;
         height:50px;
     }
@@ -928,7 +1125,7 @@ ul li{
     }
     #sectionnine_maindiv_img{
         display:flex;
-       margin-left:100px;
+       margin-left:50px;
        margin-bottom:30px;
     }
     #sectionten_maindiv{
@@ -951,6 +1148,27 @@ ul li{
     #middle_div p{
        font-size:15px; 
     }
+    #bottom_left{
+        width:200px !important;
+        height:200px;
+        position: absolute;
+        top:4000px;
+        left:0px;
+        opacity:0.05;
+        
+       
+    }
+    #bottom_right{
+        width:500px ;
+        height:300px;
+        position: absolute;
+        top:4500px;
+        right:0px;
+        opacity:0.05;
+      
+       
+    }
+    
 }
 @media(max-width:490px){
     #header{

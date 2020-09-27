@@ -18,19 +18,20 @@
 }
 
 body{
-    background-color: #E5e5e5;
-    padding: 50px;
+    /* background-color: #E5e5e5; */
+   
 }
 #main{
 
 width: 80%;
+height:600px;
 margin: auto;
+padding: 50px;
+
 }
 
 /* section one styling starts here */
-#num{
 
-}
 
 .one{
 position: absolute;
@@ -114,6 +115,8 @@ background-color: #2B50AA;
     border-bottom-left-radius: 7px; 
     line-height: 1.5rem; 
     font-family: Futura; 
+   
+
     
 }
 
@@ -147,7 +150,7 @@ background-color: #2B50AA;
     font-size: 10px;
     font-weight: normal;
     font-style: normal;
-    padding: 20px;
+    padding: 10px;
     
 }
 
@@ -161,6 +164,7 @@ background-color: #2B50AA;
     background-color: #ffffff; 
     border: 1px solid  rgba(177, 176, 176, 0.864);
     padding: 0px 25px 5px 0px;
+  
 
     
 }
@@ -237,30 +241,41 @@ font-family:Futura;
 #textfour{
     position: relative;
     top: 50px;
-    text-align: center;
     font-size: 15px;
     color: black;
+   
+    display:flex;
+  padding-left: 50px;
 }
+
+
 h4{
     font-weight: bold;
     font-family:Futura;
     font-size: 15px;
+   
+   
 }
-a{
+ #back {
     color: #245b09;
     text-decoration: none;
     cursor: grab;
     font-weight: bold;
     font-family: Futura;
     font-size: 15px;
+  
+  padding-top: 20px;
 }
 a:hover{
     color: red;
 }
 #con2 a{
     position: absolute; 
-    top: 80px; 
-    right:650px ;
+    top: 0px; 
+    right:270px ;
+    color: #245b09;
+    text-decoration: none;
+    cursor: grab;
 }
 
 
@@ -273,6 +288,7 @@ a:hover{
 @media (max-width:1300px){
     body{
         overflow-x: hidden;
+       
     }
 
     #leaf{
@@ -283,6 +299,47 @@ a:hover{
     top: 130px; 
     right:300px ;
     }
+    #con2{
+   
+    width: 500px;
+    height: 550px;
+    background-color: #ffffff; 
+    border: 1px solid  rgba(177, 176, 176, 0.864);
+    padding: 0px 25px 5px 0px;
+
+
+    
+}
+#con2 a{
+    position: absolute; 
+    top: 70px; 
+    right:300px;
+}
+#back {
+    color: #245b09;
+    text-decoration: none;
+    cursor: grab;
+    font-weight: bold;
+    font-family: Futura;
+    font-size: 15px;
+  
+  padding-top: 70px;
+}
+a:hover{
+    color: red;
+}
+#con2 a{
+    position: absolute; 
+    top:0px; 
+    right:  210px ;
+    color: #245b09;
+    text-decoration: none;
+    cursor: grab;
+}
+
+
+     
+   
     
 
 }
@@ -291,13 +348,56 @@ a:hover{
     body{
         overflow-x: hidden;
     }
+    #con2 a{
+        position: absolute; 
+        top: 50px; 
+        right:100px;
+    }
+    
   
 }
 
 @media(max-width:970px){
     body{
         overflow-x: hidden;
+      
     }
+    #main{
+
+        width: 100%;
+        height:600px;
+        margin:0px;
+        padding: 0px;
+        padding-top:23px;
+       
+        }
+        #con2 a{
+            position: absolute; 
+            top: 50px; 
+            right:100px;
+        }
+        #back {
+            color: #245b09;
+            text-decoration: none;
+            cursor: grab;
+            font-weight: bold;
+            font-family: Futura;
+            font-size: 15px;
+          
+          padding-top: 50px;
+        }
+        a:hover{
+            color: red;
+        }
+        #con2 a{
+            position: absolute; 
+            top: 0px; 
+            right:150px ;
+            color: #245b09;
+            text-decoration: none;
+            cursor: grab;
+        }
+       
     
     
 }
@@ -305,6 +405,7 @@ a:hover{
     body{
         background-color: rgb(190, 189, 189);
         overflow-x: hidden;
+       
     }
     
     #con1{
@@ -341,6 +442,46 @@ a:hover{
             margin: 0px;
             padding-top:30px;
             }
-        
+            #con2{
+   
+                width: 100%;
+                height: 550px;
+                background-color: #ffffff; 
+                border: 1px solid  rgba(177, 176, 176, 0.864);
+                padding: 0px 5px 5px 0px;
+              
+            
+                
+            }
+            #main{
+
+                width: 100%;
+                height:600px;
+                margin:0px;
+                padding: 0px;
+                padding-top:23px;
+               
+                }
+                #back {
+                    color: #245b09;
+                    text-decoration: none;
+                    cursor: grab;
+                    font-weight: bold;
+                    font-family: Futura;
+                    font-size: 15px;
+                  
+                  padding-top: 50px;
+                }
+                a:hover{
+                    color: red;
+                }
+                #con2 a{
+                    position: absolute; 
+                    top: 0px; 
+                    right:160px ;
+                    color: #245b09;
+                    text-decoration: none;
+                    cursor: grab;
+                }
        
 }
