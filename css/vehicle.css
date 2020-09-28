@@ -18,9 +18,7 @@
     font-style: normal;
     font-display: swap;
 }
-body{
 
-}
 
 
 
@@ -485,6 +483,9 @@ display:inline-block;
                 margin-top: 15px;
                 border-radius: 5px;
             }
+            #myform{
+                margin: 0px 10px;
+                }
             #mybtn{
                 display:flex;
                 
@@ -533,7 +534,8 @@ display:inline-block;
         }
         #con-one-two h3{
           
-            margin-left:50px;
+            margin-left:0px;
+            font-size:25px;
         }
         #mybtn2{
             background-color: #245B09;
@@ -543,7 +545,7 @@ display:inline-block;
             outline: none;
             border: none;
             float: none;
-            margin-left: 50px;
+            margin-left: 10px;
             margin-top: 15px;
             border-radius: 5px;
           
@@ -558,15 +560,41 @@ display:inline-block;
             outline: none;
             border: none;
             float: none;
-            margin-left: 20px;
+            margin-left: 10px;
             margin-top: 15px;
             border-radius: 5px;
         }
+        #con-two{
+    
+            background-color: #2B50AA;
+            height: 650px;
+            width:100%;
+          
+          
+        }
+        #boxone{
+            /* border: 1px solid red; */
+            background-color: white;
+            height: 500px;
+            margin: 0px 60px;
+           
+            
+            
+            }
+            #con{
+                width: 65%;
+                height: 900px;
+                margin: 100px !important;
+                /* border: 2px solid yellow ; */
+                }
         #mybtn{
             display:flex;
             
             
             }
+            #myform{
+                margin: 0px 10px;
+                }
             .one{
                 display:none;
             }
