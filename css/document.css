@@ -77,24 +77,24 @@ padding-top: 50px;
 
 
 
-#con{
+.con{
 width: 65%;
 height: 950px;
 margin: auto;
 /* border: 2px solid yellow ; */
 }
-#con-con{
+.con-con{
     height: 220px;
  /* border: 5px black solid; */
 }
-#con-one{
+.con-one{
 
     background-color: white;
     height: 220px;
     
 }
 
-#con-one-one{
+.con-one-one{
     /* border: 1px solid red; */
     height: 70px;
     margin-left:60px;
@@ -102,7 +102,7 @@ margin: auto;
 }
 
 
-#con-one-two{
+.con-one-two{
     /* border: 1px solid rgb(42, 25, 192);  */
     height: 50px;
     width: 100%;
@@ -111,7 +111,7 @@ margin: auto;
     text-align: center;
 }
 
-#con-one-two h3{
+.con-one-two h3{
 font-weight: bold;
 font-family: Avian;
 font-style: normal;
@@ -121,23 +121,23 @@ color: #10150C;
  font-size: 30px;
  margin-left: 320px;
 }
-#skip{
+.skip{
    margin-left: 292px;
    padding-top: 15px;
    text-decoration: none;
     
 }
 
-#skip a{
+.skip a{
     text-decoration: none;
 color: black;
     
 }
-#con-one-three{
+.con-one-three{
     /* border: 1px solid rgb(24, 211, 108); */
     height: 50px;
 }
-#con-one-three p{
+.con-one-three p{
     font-weight: 400;
     font-family: Futura;
     line-height: 1.5rem;
@@ -150,17 +150,17 @@ color: black;
 
 
 /* section 2 con-two  styling with two divs*/
-#con-two{
+.con-two{
     
     background-color: #2B50AA;
     height: 900px;
 }
-#box{
+.box{
     display: block;
     margin: auto;
 }
 
-#boxone{
+.boxone{
 /* border: 1px solid red; */
 background-color: #FFFFFF;
 height: 750px;
@@ -171,7 +171,7 @@ display: block;
 
 /* select input type  starts here*/
 
-#myselect{
+.myselect{
     padding: 10px 0px 0px 0px;
    
 }
@@ -194,7 +194,7 @@ label{
 /* select input type  ends here*/
 
 
-#dl{
+.dl{
 box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
 background: #FFFFFF;
 margin: 0px 80px 20px 80px;
@@ -203,16 +203,16 @@ border-radius: 10px;
 padding-top: 5px;
 }
 
-#dl_one{
+.dl_one{
     margin: 10px 0px 5px  0px;
     /* border: 2px solid red; */
     padding-left: 10px;
 }
 
-#dl_two{
+.dl_two{
     /* border: 2px solid blue; */
 }
-#mybtnone{
+.mybtnone{
     background:  #245B09;
     color: #FFFFFF;
     font-family: Futura;
@@ -228,14 +228,14 @@ padding-top: 5px;
 
 
 /* LASDRI CARD STARTS here */
-#lc{
+.lc{
 box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
 background: #FFFFFF;
 margin: 0px 80px 20px 80px;
 height: 140px;
 border-radius: 10px;
 }
-#lc_one{
+.lc_one{
 /* border: 2px solid red; */
 margin: 0px 0px 5px  0px;
 padding-left: 10px;
@@ -265,10 +265,10 @@ a:hover{
     color: red;
 }
 
-#lc_two{
+.lc_two{
     /* border: 2px solid blue; */
 }
-#mybtnone{
+.mybtnone{
 background:  #245B09;
 color: #FFFFFF;
 font-family: Futura;
@@ -283,7 +283,7 @@ margin-right: 15px;
 /* LASDRI CARD ENDS here */
 
 /* DRIVER BADGE */
-#db{
+.db{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
     background: #FFFFFF;
     margin: 0px 80px 20px 80px;
@@ -291,7 +291,7 @@ margin-right: 15px;
     border-radius: 10px;
     
 }
-#db_one{
+.db_one{
     /* border: 2px solid red; */
     margin: 0px 0px 5px  0px;
     padding-left: 10px;
@@ -320,7 +320,7 @@ a:hover{
         color: red;
     }
 
-#db_two{
+.db_two{
     /* border: 2px solid blue; */
 }
 #mybtnone{
@@ -337,14 +337,14 @@ margin-right: 15px;
 /* DATA BADGE ends here */
 
  /* DRIVERS PROFILE PICTURE styling ends here */
-#dp{
+.dp{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
     background: #FFFFFF;
     margin: 0px 80px 20px 80px;
     height: 140px;
     border-radius: 10px;
 }
-#dp_one{
+.dp_one{
     /* border: 2px solid red; */
     margin: 0px 0px 5px  0px;
     padding-left: 10px;
@@ -374,10 +374,10 @@ h5{
         color: red;
     }
 
-#dp_two{
+.dp_two{
     /* border: 2px solid blue; */
 }
-#mybtnone{
+.mybtnone{
     background:  #245B09;
     color: #FFFFFF;
     font-family: Futura;
@@ -396,7 +396,7 @@ h5{
 /* BOXTWO STYLING STARTS HERE */
 
 
-#boxtwo{
+.boxtwo{
     height: 80px;
     margin: 0px 60px 60px 60px;
     /* border:2px solid black; */
@@ -404,12 +404,12 @@ h5{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-#mybtn{
+.mybtn{
 display:inline-block;
 
 
 }
-#mybtn1{
+.mybtn1{
     background-color: #FFFF;
     color: #10150C;
     font: Futura, normal, normal,;
@@ -422,7 +422,7 @@ display:inline-block;
     margin-top: 15px;
     border-radius: 5px;
 }
-#mybtn2{
+.mybtn2{
     background-color: #245B09;
     color: #F1FAEA;
     font: Futura, normal, normal, bold ;
