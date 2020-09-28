@@ -77,24 +77,24 @@ body{
 
 
 
-#con{
+.con{
 width: 65%;
 height: 900px;
 margin: auto;
 /* border: 2px solid yellow ; */
 }
-#con-con{
+.con-con{
     height: 220px;
 
 }
-#con-one{
+.con-one{
 
     background-color: white;
     height: 220px;
     
 }
 
-#con-one-one{
+.con-one-one{
     /* border: 1px solid red; */
     height: 70px;
     margin-left:60px;
@@ -103,7 +103,7 @@ margin: auto;
 }
 
 
-#con-one-two{
+.con-one-two{
     /* border: 1px solid rgb(42, 25, 192);  */
     height: 50px;
     width: 100%;
@@ -113,7 +113,7 @@ margin: auto;
    
 }
 
-#con-one-two h3{
+.con-one-two h3{
 font-weight: bold;
 font-family: Avian;
 font-style: normal;
@@ -123,7 +123,7 @@ color: #10150C;
  font-size: 30px;
  margin-left: 320px;
 }
-#skip{
+.skip{
    margin-left: 260px;
    padding-top: 15px;
    text-decoration: none;
@@ -131,16 +131,16 @@ color: #10150C;
     
 }
 
-#skip a{
+.skip a{
     text-decoration: none;
 color: black;
     
 }
-#con-one-three{
+.con-one-three{
     /* border: 1px solid rgb(24, 211, 108); */
     height: 50px;
 }
-#con-one-three p{
+.con-one-three p{
     font-weight: 400;
     font-family: Futura;
     line-height: 1.5rem;
@@ -153,21 +153,21 @@ color: black;
 
 
 /* section 2 con-two  styling with two divs*/
-#con-two{
+.con-two{
     
     background-color: #2B50AA;
     height: 650px;
   
   
 }
-#box{
+.box{
     display: block;
     margin: auto;
   
     
 }
 
-#boxone{
+.boxone{
 /* border: 1px solid red; */
 background-color: white;
 height: 500px;
@@ -178,7 +178,7 @@ margin: 0px 60px;
 
 
 
-#myform{
+.myform{
 margin: 0px 150px;
 }
 
@@ -227,7 +227,7 @@ margin-top: 5px;
 
 }
 
-#boxtwo{
+.boxtwo{
     height: 80px;
     margin: 0px 60px 60px 60px;
     /* border:2px solid black; */
@@ -235,12 +235,12 @@ margin-top: 5px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-#mybtn{
+.mybtn{
 display:inline-block;
 
 
 }
-#mybtn1{
+.mybtn1{
     background-color: #FFFF;
     color: #10150C;
     font: Futura, normal, normal,;
@@ -253,7 +253,7 @@ display:inline-block;
     margin-top: 15px;
     border-radius: 5px;
 }
-#mybtn2{
+.mybtn2{
     background-color: #245B09;
     color: #F1FAEA;
     font: Futura, normal, normal, bold ;
@@ -266,11 +266,11 @@ display:inline-block;
     border-radius: 5px;
     
 }
-#mybtn1:hover{
+.mybtn1:hover{
     background-color: #abce9a;
     color: #FFFFFF;
 }
-#mybtn2:hover{
+.mybtn2:hover{
     background-color: #abce9a;
     color: black;
 }
@@ -296,7 +296,7 @@ display:inline-block;
         text-align: center;
         padding-top:50px;
     }
-    #skip{
+    .skip{
         margin-left: 100px;
         padding-top: 15px;
         text-decoration: none;
@@ -331,7 +331,7 @@ display:inline-block;
         overflow-x: hidden;
       
     }
-    #con-one-two{
+    .con-one-two{
         /* border: 1px solid rgb(42, 25, 192);  */
         height: 50px;
         width: 100%;
@@ -340,21 +340,21 @@ display:inline-block;
         
        
     }
-    #con-one-two h3{
+    .con-one-two h3{
        
         margin-left:200px;
     }
-    #skip{
+    .skip{
         margin-left: 50px;
         padding-top: 15px;
         text-decoration: none;
        
          
      }
-     #myform{
+     .myform{
         margin: 0px 100px;
         }
-        #mybtn2{
+        .mybtn2{
             background-color: #245B09;
             color: #F1FAEA;
             font: Futura, normal, normal, bold ;
@@ -391,11 +391,11 @@ display:inline-block;
         overflow-x: hidden;
        
     }
-    #myform{
+    .myform{
         margin: 0px 60px;
         }
 
-        #mybtn2{
+        .mybtn2{
             background-color: #245B09;
             color: #F1FAEA;
             font: Futura, normal, normal, bold ;
@@ -434,7 +434,7 @@ display:inline-block;
         overflow-x: hidden;
        
     }
-    #myform{
+    .myform{
         margin: 0px 30px;
         }
         input{
@@ -453,12 +453,12 @@ display:inline-block;
                 outline: none;
             border: 1px solid lightgray;
             }
-            #con-one-two h3{
+            .con-one-two h3{
                
                 margin-left:150px;
             }
 
-            #mybtn2{
+            .mybtn2{
                 background-color: #245B09;
                 color: #F1FAEA;
                 font: Futura, normal, normal, bold ;
@@ -472,7 +472,7 @@ display:inline-block;
               
                 
             }
-            #mybtn1{
+            .mybtn1{
                 background-color: #FFFF;
                 color: #10150C;
                 font: Futura, normal, normal,;
@@ -485,7 +485,7 @@ display:inline-block;
                 margin-top: 15px;
                 border-radius: 5px;
             }
-            #mybtn{
+            .mybtn{
                 display:flex;
                 
                 
@@ -531,11 +531,11 @@ display:inline-block;
             outline: none;
         border: 1px solid lightgray;
         }
-        #con-one-two h3{
+        .con-one-two h3{
           
             margin-left:50px;
         }
-        #mybtn2{
+        .mybtn2{
             background-color: #245B09;
             color: #F1FAEA;
             font: Futura, normal, normal, bold ;
@@ -549,7 +549,7 @@ display:inline-block;
           
             
         }
-        #mybtn1{
+        .mybtn1{
             background-color: #FFFF;
             color: #10150C;
             font: Futura, normal, normal,;
@@ -562,7 +562,7 @@ display:inline-block;
             margin-top: 15px;
             border-radius: 5px;
         }
-        #mybtn{
+        .mybtn{
             display:flex;
             
             
