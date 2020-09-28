@@ -28,8 +28,8 @@ p, li{
 }
 
 #main_container{
-    width:100%;
-    /* border:1px solid red; */
+    width:100vw;
+   
     box-sizing: border-box;
     background: #E5E5E5;
    
@@ -462,6 +462,13 @@ ul li{
       
         overflow-x: hidden;
     }
+    #main_container{
+        width:100vw;
+        /* border:1px solid red; */
+        box-sizing: border-box;
+        background: #E5E5E5;
+       
+    }
     .menu_div{
   
         margin-left:150px;
@@ -530,6 +537,13 @@ ul li{
        
         overflow-x: hidden;
     }
+    #main_container{
+        width:100vw;
+        /* border:1px solid red; */
+        box-sizing: border-box;
+        background: #E5E5E5;
+       
+    }
     .menu_div{
         margin-left:100px;
         margin-top:5px;
@@ -579,6 +593,13 @@ ul li{
       
         overflow-x: hidden;
     }
+    #main_container{
+        width:100vw !important;
+        /* border:1px solid red; */
+        box-sizing: border-box;
+        background: #E5E5E5;
+       
+    }
     .menu_div{
         margin-left:50px;
         margin-top:5px;
@@ -611,7 +632,28 @@ ul li{
         
        
         overflow-x: hidden;
+        background: green;
+    }
+    #main_container{
+        width:100% !important;
+        /* border:1px solid red; */
+        box-sizing: border-box;
+        background: #E5E5E5;
+       
     } 
+    #header{
+        width:100%;
+        display:flex;
+        padding-left:16px !important;
+        padding-top:20px;
+        background-color:white;
+        height:80px;
+        box-sizing: border-box;
+        position:fixed;
+        background: #dfdddd;
+        z-index: 3;
+        
+    }
 
 
     .menu_div{
@@ -644,6 +686,9 @@ ul li{
     
     
     }
+    #login_here button{
+        right:20px;
+    }
     #about{
         color:black;
         border-bottom: hidden;
@@ -656,7 +701,7 @@ ul li{
     }
     
     #sectiontwo_maindiv{
-        width:100%;
+        width:100% !important;
     
     }
     #sectiontwo_image{
@@ -903,7 +948,7 @@ ul li{
              
 
 }
-@media(max-width:)
+
 
 
 
@@ -924,6 +969,17 @@ ul li{
       
         overflow-x: hidden;
       
+    }
+    #header{
+        width:100%;
+       
+    }
+    #main_container{
+        width:360px !important;
+        /* border:1px solid red; */
+        box-sizing: border-box;
+        background: #E5E5E5;
+       
     }
     .menu_div{
         display:none;
@@ -969,11 +1025,12 @@ ul li{
           font-size:20px;
     }
     #sectiontwo_maindiv{
-        width:100%;
+        width:360px;
+        /* border:solid; */
     
     }
     #sectiontwo_image{
-        width:100%;
+        width:100vw;
         height:250px;
         /* border:1px solid red; */
         /* margin:auto; */
@@ -987,21 +1044,36 @@ ul li{
     }
     #visionmission_maindiv{
         width:100%;
-        height:150px;
-        /* border:1px solid red; */
+        height:300px !important;
+      
         /* margin:auto; */
         margin-top:50px;
         margin-left:0px;
-        margin-bottom:200px;
+        margin-bottom:10px !important;
         display:block;
+       
     
     }
+    
     #mission_maindiv{
         display:flex;
         margin-left:0px;
         width:100%;
+        height:500px;
         /* border:1px solid black; */
+        margin-bottom: 50px;
     
+    }
+    #mission_long_paragraph{
+        border-bottom:1px solid  #E8C547;
+        border-left:1px solid  #E8C547;
+        height:220px ;
+        padding-left:20px;
+       
+      
+    }
+    .objective_long_text{
+        height:100px;
     }
     #vision_div{
         display:flex;
@@ -1057,6 +1129,7 @@ ul li{
         margin-top:50px;
         margin-left:20px;
         box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+      
     }
     #sectionnine_maindiv_img{
         display:flex;
@@ -1089,13 +1162,20 @@ ul li{
         
       
     }
+    .transparent h3{
+        margin-left:50px !important;
+    padding-top:100px;
+    font-size:30px;
+    color:white;
+   
+  
+        
+    }
     .transparent{
         background-color:rgba(51, 51, 51,0.6 );
        
          height:250px;
-         padding-top:0px;
-      
-          
+         padding-top:0px;     
         
      }
      .transparenttwo{
@@ -1104,9 +1184,12 @@ ul li{
        height:150px;
     
     }
+    .transparenttwo h3{
+        margin-left: 50px !important;
+    }
     #teampictures_maindiv{
     
-        width:95%;
+        width:100%;
         height:700px;
        
         /* margin:auto; */
@@ -1267,9 +1350,15 @@ ul li{
       
       
        overflow-x: hidden;
+       background: #E5E5E5;
+      
    } 
    #header{
        padding-left:70px;
+   }
+   #main_container{
+       width:100vw !important;
+      
    }
    .menu_div{
     display:none;
