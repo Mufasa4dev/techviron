@@ -438,3 +438,415 @@ display:inline-block;
 
 
 /* section 2 con-two  styling */
+
+/*media screen styling starts here*/
+
+@media(max-width:1150px){
+
+    body{
+        overflow-x: hidden;
+      
+    }
+    #con-one-two{
+        /* border: 1px solid rgb(42, 25, 192);  */
+        height: 50px;
+        width: 100%;
+        display: flex;
+       
+        
+       
+    }
+    #con-one-two h3{
+       
+        margin-left:200px;
+        font-size:25px;
+    }
+    #skip{
+        margin-left: 50px;
+        padding-top: 15px;
+        text-decoration: none;
+       
+         
+     }
+     #myform{
+        margin: 0px 100px;
+        }
+        #mybtn2{
+            background-color: #245B09;
+            color: #F1FAEA;
+            font: Futura, normal, normal, bold ;
+            padding: 10px;
+            outline: none;
+            border: none;
+            float: none;
+            margin-left: 250px;
+            margin-top: 15px;
+            border-radius: 5px;
+          
+            
+        }
+        .one{
+            display:none;
+        }
+        .two{
+           display:none;
+       }
+       .three{
+           display:none;
+       }
+       .four{
+           display:none;
+       }
+       .five{
+           display:none;
+       }
+     
+  
+}
+@media(max-width:1100px){
+    body{
+        overflow-x: hidden;
+       
+    }
+    #myform{
+        margin: 0px 60px;
+        }
+
+        #mybtn2{
+            background-color: #245B09;
+            color: #F1FAEA;
+            font: Futura, normal, normal, bold ;
+            padding: 10px;
+            outline: none;
+            border: none;
+            float: none;
+            margin-left: 200px;
+            margin-top: 15px;
+            border-radius: 5px;
+          
+            
+        }
+        .one{
+            display:none;
+        }
+        .two{
+           display:none;
+       }
+       .three{
+           display:none;
+       }
+       .four{
+           display:none;
+       }
+       .five{
+           display:none;
+       }
+  
+   
+    
+}
+
+@media(max-width:970px){
+    body{
+        overflow-x: hidden;
+       
+    }
+    #myform{
+        margin: 0px 30px;
+        }
+        input{
+            
+            width: 300px;
+            
+            }
+            select{
+                display: block;
+                margin: 10px 0px;
+                width: 320px;
+                padding: 10px;
+                border-radius: 5px;
+                color: rgba(16, 21, 12, 0.3);
+                background: #FDFDFD;
+                outline: none;
+            border: 1px solid lightgray;
+            }
+
+            #mybtnone{
+                background-color: #245B09;
+                color: #F1FAEA;
+                font: Futura, normal, normal, bold ;
+                padding: 10px;
+                outline: none;
+                border: none;
+                float: none;
+                margin-left: 150px;
+                margin-top: 15px;
+                border-radius: 5px;
+              
+                
+            }
+            #mybtn1{
+                background-color: #FFFF;
+                color: #10150C;
+                font: Futura, normal, normal,;
+                font-weight: bold;
+                padding: 10px;
+                outline: none;
+                border: none;
+                float: none;
+                margin-left: 20px;
+                margin-top: 15px;
+                border-radius: 5px;
+            }
+            #mybtn{
+                display:flex;
+                
+                
+                }
+                .one{
+                    display:none;
+                }
+                .two{
+                   display:none;
+               }
+               .three{
+                   display:none;
+               }
+               .four{
+                   display:none;
+               }
+               .five{
+                   display:none;
+               }
+        
+   
+    
+}
+@media(max-width:800px){
+    body{
+      
+        overflow-x: hidden;
+      
+    }
+    .one{
+        display:none;
+    }
+    .two{
+       display:none;
+   }
+   .three{
+       display:none;
+   }
+   .four{
+       display:none;
+   }
+   .five{
+       display:none;
+   }
+   .six{
+       display: none;
+   }
+   #con-one-one{
+       display: none;
+    
+}
+    input{
+            
+        width: 150px;
+        
+        }
+        select{
+            display: block;
+            margin: 10px 0px;
+            width: 170px;
+            padding: 10px;
+            border-radius: 5px;
+            color: rgba(16, 21, 12, 0.3);
+            background: #FDFDFD;
+            outline: none;
+            border: 1px solid lightgray;
+        }
+
+        #con-one-two{
+            /* border: 1px solid rgb(42, 25, 192);  */
+            height: 50px;
+            width: 100%;
+            
+            display: flex;
+            text-align: center;
+        }
+        
+        #con-one-two h3{
+        font-weight: bold;
+        font-family: Avian;
+        font-style: normal;
+        text-align: center;
+        color: #10150C;
+        padding: 10px 0px 10px 0px; 
+        font-size: 20px;
+        margin-left: 20px;
+        }
+        #skip{
+        margin-left: 52px;
+        padding-top: 15px;
+        text-decoration: none;
+        font-family: Avian;
+            
+        }
+        
+        #skip a{
+        text-decoration: none;
+        color: black;
+            
+        }
+        #con-one-three{
+            border: 1px solid rgb(24, 211, 108);
+            height: 100px;
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+        #con-one-three p{
+            font-weight: 400;
+            font-family: Futura;
+            line-height: 1.5rem;
+            text-align: left;
+            font-style: normal;
+            font-size: 12px;
+            /* padding: 10px 0px 0px 0px; */
+            color: #10150C;
+        }
+
+        #con-two{
+    
+            background-color: #2B50AA;
+            height: 1000px;
+        }
+        #box{
+            display: block;
+            margin-left: 5px;
+
+        }
+        
+        #boxone{
+        /* border: 1px solid red; */
+        background-color: #FFFFFF;
+        height: 850px;
+        margin: 0px 20px;
+        display: block;
+        
+        }
+        #dl{
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+        background: #FFFFFF;
+        /* margin: 0px 80px 20px 80px; */
+        margin-left: 10px;
+        height: 140px;
+        border-radius: 10px;
+        padding-top: 5px;
+        }
+        #dl_one{
+            font-size: 12px;
+            margin: 5px 0px 5px  0px;
+            /* border: 2px solid red; */
+            padding-left: 10px;
+        }
+
+        #mybtnone{
+            background:  #245B09;
+            color: #FFFFFF;
+            font-family: Futura;
+            font-style: normal;
+            padding: 4px;
+            float: left;
+            margin-left: 5px;
+            border-radius: 10px;
+            }
+            #lc{
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+            background: #FFFFFF;
+            margin-top: 120px;
+            margin-left: 10px;
+            height: 140px;
+            border-radius: 10px;
+            }
+            #lc_one{
+            /* border: 2px solid red; */
+            margin: 0px 0px 5px  0px;
+            padding-left: 10px;
+            font-size: 12px;
+            }
+            #db{
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+            background: #FFFFFF;
+            margin-top: 30px;
+            margin-left: 10px;
+            height: 140px;
+            border-radius: 10px; 
+            }
+            #db_one{
+            margin: 0px 0px 5px  0px;
+            padding-left: 10px;
+            font-size: 12px; 
+            }
+
+
+            #dp{
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+            background: #FFFFFF;
+            margin-top: 50px;
+            margin-left: 10px;
+            height: 140px;
+            border-radius: 10px;
+            }
+            #dp_one{
+            margin: 0px 0px 5px  0px;
+            padding-left: 10px;
+            font-size: 12px; 
+            }
+            #mybtnone{
+            background:  #245B09;
+            color: #FFFFFF;
+            font-family: Futura;
+            font-style: normal;
+            font-size: 10px; 
+            padding: 3px;
+            font-weight: lighter;
+            float: right;
+            margin-right: 15px;
+            border-radius: 10px;
+            }
+     
+        #mybtn{
+            display:flex;
+        }
+
+        #mybtn1{
+            background-color: #FFFF;
+            color: #10150C;
+            font: Futura, normal, normal,;
+            font-weight: bold;
+            padding: 4px;
+            outline: none;
+            border: none;
+            float: left;
+            margin-left: 5px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        #mybtn2{
+            background-color: #245B09;
+            color: #F1FAEA;
+            font: Futura, normal, normal, bold ;
+            padding: 4px;
+            outline: none;
+            border: none;
+            float: right;
+            margin-left: 20px;
+            margin-top: 15px;
+            border-radius: 5px;
+            
+        }
+           
+}
+
+/*media screen styling ends here*/
