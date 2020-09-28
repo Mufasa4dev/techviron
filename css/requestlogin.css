@@ -340,6 +340,7 @@ background-color: #2B50AA;
     @media (max-width:1300px){
         body{
             overflow-x: hidden;
+            margin-top: 50px;
         }
         #first{
             width: 100px;

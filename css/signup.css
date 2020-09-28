@@ -29,9 +29,7 @@ margin: auto;
 }
 
 /* section one styling starts here */
-#num{
 
-}
 
 .one{
 position: absolute;
@@ -313,3 +311,101 @@ a:hover{
 
 
 /* section two styling ends here */
+
+
+
+
+ /* ------------------ media queries ------------------ */
+
+ @media (max-width:1300px){
+    body{
+        overflow-x: hidden;
+        margin-top: 50px;
+    }
+    #first{
+        width: 100px;
+        /* border: 1px solid rgba(255, 0, 0, 0.59); */
+        display: flex;
+        position: relative;
+        top: 120px;
+        padding-left:0px;
+        margin-right:1000px;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media(max-width:1150px){
+
+    body{
+        overflow-x: hidden;
+    }
+  
+}
+
+@media(max-width:970px){
+    body{
+        overflow-x: hidden;
+    }
+    #main{
+
+        width: 80%;
+        margin: 0px;
+        }
+   
+    
+}
+@media(max-width:800px){
+    body{
+      
+        overflow-x: hidden;
+    }
+    #main{
+
+        width: 80%;
+        margin: -10px;
+        }
+
+        body{
+            background-color: #E5e5e5;
+            padding: 0px;
+        }
+        #con1{
+            width: 300px;
+            height: 554px;
+            background-color: #2B50AA; 
+            display:none;  
+            }
+        
+
+        
+           
+           
+           .one{
+        display:none;
+            
+            
+            }
+            .two{
+                display:none;
+            
+            }
+            
+            .three{
+                display:none;
+            
+            
+            }
+            
+            .four{
+                display:none;
+          
+            }
+            .five{
+                display:none;
+          
+            }
+            
+            
+    
+}
