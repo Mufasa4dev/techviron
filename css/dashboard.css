@@ -828,7 +828,8 @@ width: auto;
         margin-top: 10px;
         
         font-size: 20px;;
-        margin-left:20px;
+        margin-left:0px;
+       
        
     }
     a{
@@ -1089,7 +1090,7 @@ width: auto;
     }
     #left_icons{
         margin-top: 0px; 
-        font-size: 20px;;
+        font-size: 20px;
         margin-left:0px;
        
     }
