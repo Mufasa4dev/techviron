@@ -246,12 +246,9 @@ display:inline-block;
 
 
 
+/* ------------------ media queries ------------------ */
 
-
-
- /* ------------------ media queries ------------------ */
-
- @media (max-width:1314px){
+@media (max-width:1314px){
     body{
         overflow-x: hidden;
        
@@ -491,7 +488,7 @@ display:inline-block;
     }
     input{
             
-        width: 150px;
+        width: 200px;
         
         }
         select{
@@ -508,8 +505,15 @@ display:inline-block;
         #con-one-two h3{
           
             margin-left:40px;
-            font-size:15px;
+            font-size:25px;
+            line-height: 1.5rem;
+            font-size: 20px;
+            
         }
+        #con-one-three{
+            line-height: 1.5rem;
+        }
+
         #mybtn2{
             background-color: #245B09;
             color: #F1FAEA;
@@ -518,7 +522,7 @@ display:inline-block;
             outline: none;
             border: none;
             float: none;
-            margin-left: 10px;
+            margin-left: 40px;
             margin-top: 15px;
             border-radius: 5px;
           
@@ -533,7 +537,7 @@ display:inline-block;
             outline: none;
             border: none;
             float: none;
-            margin-left: 10px;
+            margin-left: 70px;
             margin-top: 15px;
             border-radius: 5px;
         }
@@ -557,5 +561,22 @@ display:inline-block;
            .five{
                display:none;
            }
+           #boxone{
+            /* border: 1px solid red; */
+            background-color: white;
+            height: 200px;
+            margin: 0px 20px;
+            
+            }
+            
+#boxtwo{
+    height: 80px;
+    margin: 0px 60px 60px 20px;
+    /* border:2px solid black; */
+    background:#E8C547;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width:338px;
 }
-
+            
+}
