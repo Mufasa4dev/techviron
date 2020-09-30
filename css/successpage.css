@@ -224,3 +224,416 @@ boxtwo styling begins here */
 /* boxtwo styling ends here */
 
 /* section 2 con-two  styling ends */
+@media (max-width:1314px){
+    body{
+        overflow-x: hidden;
+       
+    }
+    #con-one-two{
+        /* border: 1px solid rgb(42, 25, 192);  */
+        height: 50px;
+        width: 100%;
+      
+        display: flex;
+        text-align: center;
+        padding-top:50px;
+    }
+    #skip{
+        margin-left: 100px;
+        padding-top: 15px;
+        text-decoration: none;
+       
+         
+     }
+     .one{
+         display:none;
+     }
+     .two{
+        display:none;
+    }
+    .three{
+        display:none;
+    }
+    .four{
+        display:none;
+    }
+    .five{
+        display:none;
+    }
+    #con-one-one{
+        display:none;
+    }
+ 
+   
+
+}
+@media(max-width:1150px){
+
+    body{
+        overflow-x: hidden;
+      
+    }
+    #con-one-two{
+        /* border: 1px solid rgb(42, 25, 192);  */
+        height: 50px;
+        width: 100%;
+        display: flex;
+       
+        
+       
+    }
+    #con-one-two h3{
+       
+        margin-left:200px;
+    }
+    #skip{
+        margin-left: 50px;
+        padding-top: 15px;
+        text-decoration: none;
+       
+         
+     }
+     #myform{
+        margin: 0px 100px;
+        }
+        #mybtn2{
+            background-color: #245B09;
+            color: #F1FAEA;
+            font: Futura, normal, normal, bold ;
+            padding: 10px;
+            outline: none;
+            border: none;
+            float: none;
+            margin-left: 250px;
+            margin-top: 15px;
+            border-radius: 5px;
+          
+            
+        }
+        .one{
+            display:none;
+        }
+        .two{
+           display:none;
+       }
+       .three{
+           display:none;
+       }
+       .four{
+           display:none;
+       }
+       .five{
+           display:none;
+       }
+     
+  
+}
+@media(max-width:1100px){
+    body{
+        overflow-x: hidden;
+       
+    }
+    #myform{
+        margin: 0px 60px;
+        }
+
+        #mybtn2{
+            background-color: #245B09;
+            color: #F1FAEA;
+            font: Futura, normal, normal, bold ;
+            padding: 10px;
+            outline: none;
+            border: none;
+            float: none;
+            margin-left: 200px;
+            margin-top: 15px;
+            border-radius: 5px;
+          
+            
+        }
+        .one{
+            display:none;
+        }
+        .two{
+           display:none;
+       }
+       .three{
+           display:none;
+       }
+       .four{
+           display:none;
+       }
+       .five{
+           display:none;
+       }
+  
+   
+    
+}
+
+@media(max-width:970px){
+    body{
+        overflow-x: hidden;
+       
+    }
+    #myform{
+        margin: 0px 30px;
+        }
+        input{
+            
+            width: 300px;
+            
+            }
+            select{
+                display: block;
+                margin: 10px 0px;
+                width: 320px;
+                padding: 10px;
+                border-radius: 5px;
+                color: rgba(16, 21, 12, 0.3);
+                background: #FDFDFD;
+                outline: none;
+            border: 1px solid lightgray;
+            }
+            #con-one-two h3{
+               
+                margin-left:150px;
+            }
+
+            #mybtn2{
+                background-color: #245B09;
+                color: #F1FAEA;
+                font: Futura, normal, normal, bold ;
+                padding: 10px;
+                outline: none;
+                border: none;
+                float: none;
+                margin-left: 150px;
+                margin-top: 15px;
+                border-radius: 5px;
+              
+                
+            }
+            #mybtn1{
+                background-color: #FFFF;
+                color: #10150C;
+                font: Futura, normal, normal,;
+                font-weight: bold;
+                padding: 10px;
+                outline: none;
+                border: none;
+                float: none;
+                margin-left: 20px;
+                margin-top: 15px;
+                border-radius: 5px;
+            }
+            #myform{
+                margin: 0px 10px;
+                }
+            #mybtn{
+                display:flex;
+                
+                
+                }
+                .one{
+                    display:none;
+                }
+                .two{
+                   display:none;
+               }
+               .three{
+                   display:none;
+               }
+               .four{
+                   display:none;
+               }
+               .five{
+                   display:none;
+               }
+        
+   
+    
+}
+@media(max-width:800px){
+    body{
+      
+        overflow-x: hidden;
+      
+    }
+   
+        #con-one-two h3{
+          
+            margin-left:0px;
+            font-size:25px;
+        }
+        
+        #con-two{
+    
+            background-color: #2B50AA;
+            height: 500px;
+            width:100%;
+          
+          
+        }
+        #boxone{
+            /* border: 1px solid red; */
+            background-color: white;
+            height: 600px;
+
+            margin: 0px 30px;
+           
+            
+            
+            }
+            #con{
+                width: 100%;
+                height: 900px;
+                margin: 0px !important;
+                /* border: 2px solid yellow ; */
+                }
+        #mybtn{
+            display:flex;
+            
+            
+            }
+            #myform{
+                margin: 0px 20px;
+                }
+            .one{
+                display:none;
+            }
+            .two{
+               display:none;
+           }
+           .three{
+               display:none;
+           }
+           .four{
+               display:none;
+           }
+           .five{
+               display:none;
+           }
+
+           #box{
+            display: block;
+            margin: auto;
+        }
+        
+        #boxone{
+        /* border: 1px solid red; */
+        background-color: white;
+        height: 265px;
+        margin: 0px 60px;
+        display: block;
+        
+        }
+        
+        #boxa{
+           
+        height: 20px;
+        padding:  10px 0px; 
+        font-family: Futura;
+        color: #10150C;
+        padding: 0px;
+        width: 80%;
+        margin-bottom:30px;
+        
+        
+        }
+        #boxb{
+            border: 1px solid rgba(0, 0, 0, 0.282);
+            height: 10px;
+            margin-bottom:30px;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+            font-family: Futura;
+            color: #10150C;
+            width: 80%;
+            display:none;
+        }
+        #boxc{
+            border: 1px solid rgba(0, 0, 0, 0.282);
+            height: 50px;
+            margin-bottom:30px;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #FDFDFD;
+            font-size: 16px;
+            font-family: Futura;
+            display: block;
+            color: #10150C;
+            width: 80%;
+            margin-top: 30px;
+            
+        }
+        
+        
+        #boxc2{
+            margin-left: 140px;
+        
+        }
+        
+        #boxd{
+            border: 1px solid rgba(0, 0, 0, 0.282);
+            height: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+            font-family: Futura;
+            color: #10150C;
+            width: 80%;
+        }
+        #boxe{
+            border: 1px solid rgba(0, 0, 0, 0.282);
+            height: 50px;
+            margin-bottom: 0px;
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 16px;
+            font-family: Futura;
+            color: #10150C;
+            width: 81%;
+            margin-top: 20px;
+        }
+        
+        
+        
+        /* 
+        boxtwo styling begins here */
+        
+        #boxtwo{
+            height: 60px;
+            margin: 0px 60px 60px 60px;
+            /* border:2px solid black; */
+            background:#E8C547;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        #boxone{
+            /* border: 1px solid red; */
+            background-color: white;
+            height: 405px;
+            margin: 0px 60px;
+            display: block;
+            
+            }
+            #boxc2{
+                margin-left: 0px;
+                margin-top: 0px;
+                height:10px;
+                
+            
+            }
+            #boxc2 h4{
+                margin-top: 20px;
+               
+            }
+            #boxd{
+             
+                margin-top: 100px;
+            }
+        
+}

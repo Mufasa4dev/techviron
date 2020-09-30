@@ -382,7 +382,7 @@ a:hover{
            
            
            .one{
-        display:none;
+                  display:none;
             
             
             }
@@ -406,6 +406,9 @@ a:hover{
           
             }
             
-            
+            .six{
+                display:none;
+          
+            }
     
 }
